@@ -43,6 +43,9 @@ img{
 footer {
     font-size: smaller; /* smaller */;
 }
+li{
+    display: inline;
+}
 
 ul {
     /* text-align: center; */
