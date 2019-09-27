@@ -7,8 +7,9 @@
 body { 
     font-size: 16px; 
     line-height: 32px;
-    font-family: sans-serif; /* Ubuntu, sans-serif */;
+   /* font-family: sans-serif; /* Ubuntu, sans-serif */;
     color: #BEBADE; /* #xxxxxx */;
+    font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
@@ -54,5 +55,9 @@ ul {
 }
 a{
     color: #F6C0DE;
+    
+}
+.green p {
+    color: #EF9B70;
     
 }
