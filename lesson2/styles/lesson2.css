@@ -1,0 +1,65 @@
+h1 {
+    font-family: 'Indie Flower', cursive;
+    text-decoration: underline;
+    font-size: 2em;
+    text-align: center;
+}
+p {
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.3em;
+    
+}
+header{
+    font-family: 'Indie Flower', cursive;
+    font-size: 4em;
+    background-color: #FFAFDC;
+    text-align: center;
+    
+}
+body{
+    background-color: #E1A5FF;
+    width: 50%
+}
+footer{
+    font-size: 1.2em;
+}
+a{
+    text-align: center;
+    font-size: 1.3em;
+}
+a:link{
+    color: red;
+}
+a:visited{
+    color: forestgreen;
+}
+a:hover{
+    color: blue;
+}
+a:active{
+    color: yellow;
+}
+
+
+img{
+    width: 20em;
+}
+
+.home-grid{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    padding: 2em;
+    grid-gap: 1em;
+}
+.alignment1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.contrast1{
+    grid-column: 4/5;
+    grid-row: 1/2;
+}
+.whitespace1{
+    grid-column: 6/7;
+    grid-row:1/2;
+}
