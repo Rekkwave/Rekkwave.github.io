@@ -61,3 +61,6 @@ a{
     color: #EF9B70;
     
 }
+li{
+    list-style: none;
+}
