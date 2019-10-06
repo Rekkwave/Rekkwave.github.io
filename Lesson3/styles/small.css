@@ -33,12 +33,13 @@ li{
     /* margin: 0 10px 10px 10px; */
     /* margin: 10px 5px; */
     list-style: none;
+    font-family: 'Dosis', sans-serif;
     /* padding-left: 0; */
 }
 li>a {
     text-decoration: none;
     background-color: #ECC4A1;
-
+    font-family: 'Dosis', sans-serif;
     border-radius: 2em;
 }
 ul{
@@ -51,6 +52,7 @@ ul{
     border-radius: 2em;
     text-decoration: none;
     padding: .5em;
+    font-family: 'Dosis', sans-serif;
 
 }
 /* class selectors*/
