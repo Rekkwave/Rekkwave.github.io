@@ -81,3 +81,8 @@ main {
         padding: 2em;
     }
 }
+
+.image{
+    display: flex;
+    justify-content: flex-end
+}
