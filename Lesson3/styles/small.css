@@ -1,9 +1,26 @@
 /* html selectors */
+.top{
+    text-align: center;
+}
+body{
+    background-color: #85914F;
+    font-family: 'Dosis', sans-serif;
+
+}
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+article{
+    border: 1px dotted green;
+}
 body{
     margin: 0px;
     padding: 0px;
 }
 li{
+
     float: left;
     
     /*
@@ -14,18 +31,51 @@ li{
     */
     /* margin: 10px; */
     /* margin: 0 10px 10px 10px; */
-    margin: 10px 5px;
+    /* margin: 10px 5px; */
     list-style: none;
-    padding-left: 0;
+    /* padding-left: 0; */
 }
 li>a {
     text-decoration: none;
+    background-color: #ECC4A1;
+
+    border-radius: 2em;
+}
+ul{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    background-color: #ECC4A1;
+    border-radius: 2em;
+    text-decoration: none;
+    padding: .5em;
+
 }
 /* class selectors*/
 .highlight{
     font-weight: bold;
 }
 /* id selectors */
-#active{
-    background-color: yellow;
+a:hover{
+    color: #48ACF0;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    padding: 2em;
+}
+main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        text-align: center;
+        padding: 2em;
+    }
 }
