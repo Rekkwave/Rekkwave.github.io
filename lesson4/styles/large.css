@@ -8,21 +8,25 @@
 body{
     background-color: #85914F;
     font-family: 'Dosis', sans-serif;
+    margin: 1em;
+    padding: 1em;
 
 }
 section {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-
-}
-body{
-    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    border-style: double;
+    border-radius: 1em;
+    list-style: none;
     padding: 1em;
+    font-size: 1.5em;
 }
 li{
     font-family: 'Dosis', sans-serif;
-
-    float: left;
+    float: ;
     
     /*
     margin-top: 10px;
@@ -39,7 +43,6 @@ li{
 }
 li>a {
     text-decoration: none;
-    background-color: #ECC4A1;
     font-family: 'Dosis', sans-serif;
     border-radius: 2em;
 }
@@ -66,24 +69,6 @@ a:hover{
     color: #48ACF0;
 }
 
-section{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    justify-items: center;
-    text-align: center;
-    padding: 2em;
-}
-main {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        justify-items: center;
-        text-align: center;
-        padding: 2em;
-    }
-
-
 .image{
     display: flex;
     justify-content: flex-end
@@ -103,17 +88,28 @@ body{
     max-width: 60%;
     padding: 2em;
 }
-.center{
-    border-style: double;
-    border-radius: 1em;
-}
-.first, .second, .third, .fourth {
-    border-style: dotted;
-}
 .motto{
     text-align: center;
 }
 h1{
     text-align: center;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    padding: 2em;
+}
+.navigation {
+    display: flex;
+    justify-content: space-around;
+}
+.navigation li:first-child {
+    display: none;
+}
+.navigation li {
+    display: block;
 }
 }
