@@ -114,5 +114,11 @@ body{
 .first, .second, .third, .fourth {
     border-style: dotted;
 }
+.motto{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
 
 }

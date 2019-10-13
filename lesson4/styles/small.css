@@ -138,7 +138,6 @@ body{
 }
 .center{
     border-style: double;
-    border-style: ;
     border-radius: 1em;
 }
 .first, .second, .third, .fourth {
@@ -155,9 +154,8 @@ header, nav, main, footer{
 	display: none;
 }
 .navigation a {
-	display: block;
-	color: #fff;
-	padding: 0.75rem;
+    display: block;
+    	padding: 0.75rem;
 	text-align: center;
 	text-decoration: none;
 }
@@ -193,7 +191,6 @@ nav ul {
 }
 nav li a {
 	display: block;
-	color: #fff;
 	text-align: center;
 	padding: 0.75rem;
 	font-size: 0.95rem;
@@ -208,6 +205,12 @@ main {
 main picture {
 	display: none;
 	
+}
+.motto{
+    text-align: center;
+}
+h1{
+    text-align: center;
 }
 
 }

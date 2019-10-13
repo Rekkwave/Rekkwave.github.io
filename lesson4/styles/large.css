@@ -110,16 +110,10 @@ body{
 .first, .second, .third, .fourth {
     border-style: dotted;
 }
-@media only screen and (min-width: 60em) {
-	nav a {
-		font-size: 1.1rem;
-	}
-	main {
-		grid-template-columns: 1fr 1fr 1fr;
-	}
-	article:nth-child(3) {
-		grid-column: span 1;
-	}
+.motto{
+    text-align: center;
 }
-
+h1{
+    text-align: center;
+}
 }
