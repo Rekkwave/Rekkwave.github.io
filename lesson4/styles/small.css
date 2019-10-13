@@ -169,7 +169,6 @@ header, nav, main, footer{
 }
 header,
 footer {
-	background-color: skyblue;
 	display: flex;
 	flex-flow: column;
 	align-items: center;
@@ -187,9 +186,7 @@ footer {
 h1 {
 	font-size: 2rem;
 }
-h2 {
-	color: #536878;
-}
+
 nav ul {
 	list-style-type: none;
 	overflow: hidden;
