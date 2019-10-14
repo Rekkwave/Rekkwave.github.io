@@ -76,10 +76,6 @@
     a:hover{
         color: #48ACF0;
     }
-    .image{
-        display: flex;
-        justify-content: flex-end
-    }
     footer{
         display: grid;
         text-align: center;
