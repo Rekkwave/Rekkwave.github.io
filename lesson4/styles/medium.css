@@ -6,7 +6,7 @@
         text-align: center;
     }
     body{
-        background-color: #85914F;
+        background-color: #2B59C3;
         font-family: 'Dosis', sans-serif;
         margin: 1em;
         padding: 1em;
@@ -76,16 +76,20 @@
     a:hover{
         color: #48ACF0;
     }
+    a:visited{
+        color: ;
+    }
     footer{
         display: grid;
         text-align: center;
-        background-color: #ECC4A1;
-        grid-gap: 1em;
-        min-width: 2em;
         border-style: solid;
         border-color: black;
         border-radius: 1em;
         padding: 1em;
+        background-color: #C9A690;
+        color: lightgray;
+        grid-gap: .5em;
+        min-width: 2em;
     }
     body{
         margin: auto;

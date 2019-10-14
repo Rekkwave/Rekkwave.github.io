@@ -6,11 +6,13 @@
     text-align: center;
 }
 body{
-    background-color: #85914F;
+    background-color: #2B59C3;
     font-family: 'Dosis', sans-serif;
     margin: 1em;
     padding: 1em;
-
+    margin: auto;
+    max-width: 60%;
+    padding: 2em;
 }
 section {
     display: flex;
@@ -68,22 +70,21 @@ ul{
 a:hover{
     color: #48ACF0;
 }
+a:visited{
+    color: grey;
+}
 
 
 footer{
     text-align: center;
-    background-color: #ECC4A1;
+    background-color: #C9A690;
+    color: lightgrey;
     grid-gap: .5em;
     min-width: 2em;
     border-style: solid;
     border-color: black;
     border-radius: 1em;
     padding: 1em;
-}
-body{
-    margin: auto;
-    max-width: 60%;
-    padding: 2em;
 }
 .motto{
     text-align: center;
