@@ -9,7 +9,8 @@ body{
     background-color: #222629;
     font-family: 'Dosis', sans-serif;
     margin: 1em;
-    padding: 1em;
+    padding: 1.1em;
+    grid-gap: 1.2em;
     margin: auto;
     max-width: 60%;
     padding: 2em;
@@ -116,7 +117,13 @@ main{
     flex-direction: column;
     justify-content: flex-end;
 }
-img{
-    
-}
+.hero-text{
+    display: flex;
+    align-items: end;
+    box-shadow: 5px 5px 30px;
+    position: absolute;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column: 3/4;
+    font-size: .8em;
 }
