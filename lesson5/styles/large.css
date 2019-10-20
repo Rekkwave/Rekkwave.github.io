@@ -1,0 +1,58 @@
+@media only screen and (min-width: 992px){
+    [class*="col-"]{
+        width: 50%;
+    }
+    body{
+        font-family: 'Dosis', sans-serif;
+        margin: 1em;
+        padding: 1em;
+        background-color: #;
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        text-align: center;
+        padding: 0 auto;
+        color: #86C232;
+    }
+    section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        text-align: center;
+        border-style: double;
+        border-radius: 1em;
+        list-style: none;
+        padding: 1em;
+        font-size: 1.5em;
+    /* class selectors*/
+    }
+
+.navigation{
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    background-color: #6B6E70;
+}
+footer{
+    background-color: #6B6E70;
+    list-style: none;
+    text-decoration: none;
+}
+.navigation li:first-child {
+    display: none;
+}
+.navigation li {
+    display: block;
+}
+iframe{
+    display: none;
+}
+.bodymain{
+    color: #86C232;
+}
+}
