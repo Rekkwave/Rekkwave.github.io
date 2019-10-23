@@ -1,0 +1,88 @@
+@media only screen and (min-width: 600px; max-width: 991px){
+    [class*="col-"]{
+        width: 70%;
+    }
+    .top{
+        text-align: center;
+    }
+    body{
+        font-family: 'Dosis', sans-serif;
+        margin: 1em;
+        padding: 1em;
+        background-color: #447BBE;
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        text-align: center;
+        padding: 2em;
+        color: #86C232;
+    }
+    section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        text-align: center;
+        border-style: double;
+        border-radius: 1em;
+        list-style: none;
+        padding: 1em;
+        font-size: 1.5em;
+    /* class selectors*/
+    }
+
+    .highlight{
+        font-weight: bold;
+    }
+    /* id selectors */
+    a:hover{
+        color: #48ACF0;
+    }
+    footer{
+        display: grid;
+        text-align: center;
+        border-style: solid;
+        border-color: black;
+        border-radius: 1em;
+        padding: 1em;
+        background-color: #C9A690;
+        color: lightgray;
+        grid-gap: .5em;
+        min-width: 2em;
+        list-style: none;
+        text-decoration: none;
+    }
+    body{
+        margin: auto;
+        max-width: 60%;
+        padding: 2em;
+    }
+    .motto{
+        text-align: center;
+    }
+    h1{
+        text-align: center;
+    }
+    .navigation {
+        display: flex;
+        color: #86C232;
+        justify-content: space-between;
+        list-style: none;
+        text-decoration: none;
+    }
+    .navigation li:first-child {
+        display: none;
+    }
+    .navigation li {
+        display: block;
+    }
+iframe{
+    display: none;
+}
+.bodymain{
+    color: #86C232;
+}
+}

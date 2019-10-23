@@ -1,0 +1,151 @@
+@media only screen and (max-width: 600px) {
+    [class*="col-"] {
+        width: 50%;
+    }
+
+    footer {
+        text-align: center;
+        background-color: #2B3784;
+        color: #000000;
+        grid-gap: .5em;
+        min-width: 2em;
+        border-style: solid;
+        border-color: black;
+        border-radius: 1em;
+        padding: 1em;
+        display: none;
+
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        justify-items: end;
+        text-align: center;
+        padding: 2em;
+        background-color: #2B3784;
+        color: #86C232;
+    }
+
+    body {
+        margin: auto;
+        max-width: 60%;
+        margin: 1em;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        justify-items: end;
+        text-align: center;
+        padding: 2em;
+    }
+
+    ul {
+        border: 1px solid black;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-content: space-evenly;
+        background-color: #C9A690;
+        border-radius: 2em;
+        border-style: inset;
+        text-decoration: none;
+        padding: .5em;
+        font-family: 'Dosis', sans-serif;
+
+    }
+
+    .image {
+        display: flex;
+        justify-content: flex-end
+    }
+
+    li {
+        font-family: 'Dosis', sans-serif;
+        float: left;
+    }
+
+    li>a {
+        text-decoration: none;
+        font-family: 'Dosis', sans-serif;
+        border-radius: 2em;
+    }
+
+    a:hover {
+        color: #48ACF0;
+    }
+
+    a:visited {
+        color: #FFFFFF;
+    }
+
+    section {
+        border-style: double;
+        border-radius: .1em;
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        padding: .3em;
+
+    }
+
+    .motto {
+        text-align: center;
+    }
+
+    h1 {
+        text-align: center;
+    }
+    .bodymain{
+        color: #86C232;
+    }
+
+    .navigation {
+        display: flex;
+        color: #86C232;
+        justify-content: space-between;
+        list-style: none;
+        text-decoration: none;
+    }
+    .hidden{
+        display: none;
+    }
+
+    nav ul {
+        list-style-type: none;
+        overflow: hidden;
+    }
+
+    .navigation li:first-child {
+        display: block;
+    }
+
+    .navigation li {
+        display: none;
+    }
+
+    .navigation {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .responsive li {
+        display: block;
+    }
+
+    table,
+    th,
+    td {
+        border: 1px solid black;
+    }
+
+    #map {
+        display: none;
+
+    }
+
+    #forecast {
+        display: none;
+    }
+
+}
