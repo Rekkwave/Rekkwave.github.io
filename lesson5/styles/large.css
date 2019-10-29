@@ -112,6 +112,9 @@ main{
 .navigation li {
     display: block;
 }
+#pancake{
+    
+}
 #map{
     display: flex;
     flex-direction: column;

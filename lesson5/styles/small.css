@@ -13,8 +13,6 @@
         border-color: black;
         border-radius: 1em;
         padding: 1em;
-        display: none;
-
     }
 
     main {
@@ -37,7 +35,7 @@
         justify-items: end;
         text-align: center;
         padding: 2em;
-        color: #86C232;
+        color: #86c232;
     }
 
     ul {
@@ -64,7 +62,7 @@
     li {
         font-family: 'Dosis', sans-serif;
         float: left;
-        color: #86C232;
+        color: #86c232;
     }
 
     li>a {
@@ -78,8 +76,8 @@
         color: #628e25;
     }
 
-    a:visited {
-        color: #222629;
+    a:active {
+        background-color: #222629;
     }
 
     section {
@@ -106,7 +104,6 @@
     .navigation {
         display: flex;
         color: #86C232;
-        justify-content: space-between;
         list-style: none;
         text-decoration: none;
     }
@@ -150,15 +147,6 @@
         display: none;
 
     }
-
-    #forecast {
-        display: none;
-    }
-    #map {
-        display: none;
-
-    }
-
     #forecast {
         display: none;
     }
@@ -181,5 +169,4 @@
         grid-column: 3/4;
         font-size: .8em;
     }
-
 }

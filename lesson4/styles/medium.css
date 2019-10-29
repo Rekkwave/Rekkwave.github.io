@@ -12,7 +12,6 @@
         padding: 1.1em;
         grid-gap: 1.2em;
         margin: auto;
-        max-width: 60%;
         padding: 2em;
         color: #86C232
     
@@ -86,11 +85,6 @@
         grid-gap: .5em;
         min-width: 2em;
     }
-    body{
-        margin: auto;
-        max-width: 60%;
-        padding: 2em;
-    }
     .motto{
         text-align: center;
     }
@@ -129,5 +123,9 @@
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-column: 3/4;
         font-size: .8em;
+    }
+    .hero-image{
+        display: flex;
+        float: right;
     }
 }
