@@ -6,13 +6,14 @@
     text-align: center;
 }
 body{
-    background-color: #2B59C3;
+    background-color: #222629;
     font-family: 'Dosis', sans-serif;
     margin: 1em;
     padding: 1em;
     margin: auto;
     max-width: 60%;
     padding: 2em;
+    color: #86C232;
 }
 section {
     display: flex;
@@ -28,38 +29,29 @@ section {
 }
 li{
     font-family: 'Dosis', sans-serif;
-    float: ;
-    
-    /*
-    margin-top: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    */
-    /* margin: 10px; */
-    /* margin: 0 10px 10px 10px; */
-    /* margin: 10px 5px; */
     list-style: none;
-    font-family: 'Dosis', sans-serif;
-    /* padding-left: 0; */
+    color: #86C232;
 }
 li>a {
     text-decoration: none;
     font-family: 'Dosis', sans-serif;
     border-radius: 2em;
+    color: #86C232;
 }
 ul{
     border: 1px solid black;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    justify-content: space-evenly;
-    background-color: #ECC4A1;
+    justify-content: space-between;
+    background-color: #474b4f;
     border-radius: 2em;
     border-style: inset;
     text-decoration: none;
     padding: .5em;
     font-family: 'Dosis', sans-serif;
+    color: #628e25;
+
 
 }
 /* class selectors*/
@@ -68,29 +60,32 @@ ul{
 }
 /* id selectors */
 a:hover{
-    color: #48ACF0;
+    color: #628E25;
 }
-a:visited{
-    color: grey;
+a:active{
+    color: #222629;
 }
 
 
 footer{
     text-align: center;
-    background-color: #C9A690;
-    color: lightgrey;
+    background-color: #474b4f;
+    color: #61892f;
     grid-gap: .5em;
     min-width: 2em;
     border-style: solid;
     border-color: black;
     border-radius: 1em;
     padding: 1em;
+    display: flex;
+    flex-direction: column;
 }
 .motto{
     text-align: center;
 }
 h1{
     text-align: center;
+    color: #86C232;
 }
 main{
     display: flex;
@@ -102,12 +97,27 @@ main{
 }
 .navigation {
     display: flex;
-    justify-content: space-around;
+    padding: 1em;
+    border: 1px solid;
+    justify-content: space-between;
 }
+
+.navigation a{
+    padding: 1em;
+}
+.active{
+    background: radial-gradient(#474B4F, #222629);
+    font-weight: 100;
+}
+
 .navigation li:first-child {
     display: none;
 }
 .navigation li {
     display: block;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 100%;
+
 }
 }

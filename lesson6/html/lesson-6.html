@@ -29,6 +29,21 @@
                 <li><a href="#">Gallery</a></li>
             </ul>
         </nav>
+        <section id="weatherSummary">
+          <div>
+                 <span>Current Temp: </span>
+                 <span id="currentTemp"></span>
+          </div>
+          <div>
+                 <span>Wind Speed:</span>
+                 <span id="windSpeed"></span>
+          </div>
+          <div>
+                 <span>Wind Chill:</span>
+                 <span id="windChill"></span>
+          </div>
+
+        </section>
     </header>
     <main>
 
@@ -38,7 +53,7 @@
                 <img class="hero-image" src="/lesson6/images/spidermanrain.jpeg" alt="Hero Image" width=>
                 <section class="hero-text">
                 <h2>Weather at a Glance</h2>-->
-                <img class="hero-image" src="/lesson6/images/" alt="Hero Image"> 
+                <!-- <img class="hero-image" src="/lesson6/images/" alt="Hero Image"> 
                 <section class="hero-text">
                     <h2>Weather at a Glance</h2>
                 </section>
@@ -46,6 +61,15 @@
                 <p>Today's Highest: 57&deg;</p>
                 <p>Today's Lowest: 55&deg;</p>
             </section>
+        </section>-->
+        <section class="hero">
+            <img class="hero-image" src="/lesson6/images/franklinimagelarge.jpg" alt="Hero Image">
+            <section class="hero-text">
+                <h2>Weather at a Glance</h2>
+            </section>
+            <p>Now: 56&deg;</p>
+            <p>Today's Highest: 57&deg;</p>
+            <p>Today's Lowest: 55&deg;</p>
         </section>
         <!--Pancakes! :)-->
         <section id="pancake" class="hidden">
@@ -86,9 +110,9 @@
 <footer>
     &copy; Weather Daily Bugle | Isaac Pulido <br> <span id="currentDate"></span>
     <iframe id="map"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2879.0082163285324!2d-111.78527078478481!3d43.814188979116075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53540b03c3c8b0cd%3A0xfd28a97e4cccebc!2s525%20S%20Center%20St%2C%20Rexburg%2C%20ID%2083460!5e0!3m2!1sen!2sus!4v1571072045962!5m2!1sen!2sus"
-        width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-    <script src="/lesson6/scripts/main.js"></script>
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2879.0082163285324!2d-111.78527078478481!3d43.814188979116075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53540b03c3c8b0cd%3A0xfd28a97e4cccebc!2s525%20S%20Center%20St%2C%20Rexburg%2C%20ID%2083460!5e0!3m2!1sen!2sus!4v1571072045962!5m2!1sen!2sus"></iframe>
 </footer>
+<script src="/lesson6/scripts/main.js"></script>
 
+<script src="/lesson6/scripts/windchill.js"></script>
 </html>
