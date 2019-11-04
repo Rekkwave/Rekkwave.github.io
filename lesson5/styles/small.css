@@ -142,11 +142,15 @@
     td {
         border: 1px solid black;
     }
+    #pancake{
+        display: none;
+    }
 
     #map {
         display: none;
 
     }
+
     #forecast {
         display: none;
     }

@@ -37,6 +37,8 @@ currentDateString += ' ' + month;
 currentDateString += ' ' + currentDate.getFullYear();
 document.getElementById('currentDate').innerHTML = currentDateString;
 console.log(currentDateString);
+
+
 function toggleMenu() {
 	document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
 }
@@ -61,6 +63,8 @@ for (let i = 1; i < 6; i++) {
     if (weekDayNumber == 5){
         document.getElementById("pancake").removeAttribute("class", "hidden");
     }
+
+    
     // wind chill/what it feels like today for weather summary today 
     
     

@@ -37,9 +37,11 @@ currentDateString += ' ' + month;
 currentDateString += ' ' + currentDate.getFullYear();
 document.getElementById('currentDate').innerHTML = currentDateString;
 console.log(currentDateString);
+
 function toggleMenu() {
 	document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
 }
+
 //create 5 day forecast
 let currentDay = weekDayNumber;
 
@@ -56,9 +58,10 @@ for (let i = 1; i < 6; i++) {
     const element = document.getElementById(`day${i}`);
 
     element.innerHTML = daysOfWeek[currentDay];
-}
- // show/hide pancake
- if (weekDayNumber == 5){
-    document.getElementById("pancake").removeAttribute("class", "hidden");
-}
 
+    // show/hide pancake
+    if (weekDayNumber == 5){
+        document.getElementById("pancake").removeAttribute("class", "hidden");
+    }
+    
+}
