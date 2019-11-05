@@ -1,4 +1,4 @@
-@media only screen and (min-width: 601px){
+@media only screen and (min-width: 600px){
     [class*="col-"]{
         width: 70%;
     }
@@ -12,7 +12,6 @@
         padding: 1.1em;
         grid-gap: 1.2em;
         margin: auto;
-        max-width: 60%;
         padding: 2em;
         color: #86C232
     }
@@ -68,6 +67,7 @@
     
     
     footer{
+        display: grid;
         text-align: center;
         background-color: #474B4F;
         color: #61892F;
@@ -117,7 +117,7 @@
     }
     .active{
         background: radial-gradient(#474B4F, #222629);
-        font-weight: 500;
+        font-weight: 100;
     }
     .hero-text{
         display: flex;
