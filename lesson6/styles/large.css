@@ -12,7 +12,7 @@ body{
     padding: 1.1em;
     grid-gap: 1.2em;
     margin: auto;
-    max-width: 60%;
+    max-width: 100%;
     padding: 2em;
     color: #86C232
 }
@@ -104,7 +104,7 @@ main{
 }
 .active{
     background: radial-gradient(#474B4F, #222629);
-    font-weight: 500;
+    font-weight: 100;
 }
 .navigation li:first-child {
     display: none;
@@ -126,5 +126,13 @@ main{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-column: 3/4;
     font-size: .8em;
+}
+#pancake{
+    font-size: 1em;
+    justify-content: center;
+    max-width: 100%;
+}
+.hidden{
+    display: none;
 }
 }

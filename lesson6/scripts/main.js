@@ -59,7 +59,7 @@ for (let i = 1; i < 6; i++) {
 
     // show/hide pancake
     if (weekDayNumber == 5){
-        document.getElementById("pancake").removeAttribute("class", "hidden");
+        document.getElementById("pancake").removeAttribute("class","hidden");
     }
     // wind chill/what it feels like today for weather summary today 
     
