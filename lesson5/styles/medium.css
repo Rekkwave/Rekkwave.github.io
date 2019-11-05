@@ -133,4 +133,7 @@
         display: flex;
         float: right;
     }
+    .hidden{
+        display: none;
+    }
 }

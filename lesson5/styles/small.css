@@ -173,4 +173,7 @@
         grid-column: 3/4;
         font-size: .8em;
     }
+    .hidden{
+        display: none;
+    }
 }
