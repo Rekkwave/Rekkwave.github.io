@@ -8,26 +8,9 @@
 body{
     background-color: #222629;
     font-family: 'Dosis', sans-serif;
-    margin: 1em;
-    padding: 1.1em;
-    grid-gap: 1.2em;
-    margin: auto;
-    max-width: 100%;
-    padding: 2em;
     color: #86C232
 }
-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    justify-items: center;
-    text-align: center;
-    border-style: double;
-    border-radius: 1em;
-    list-style: none;
-    padding: 1em;
-    font-size: 1.5em;
-}
+
 li{
     font-family: 'Dosis', sans-serif;
     list-style: none;
@@ -87,14 +70,7 @@ h1{
     text-align: center;
     color: #61892F
 }
-main{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    justify-items: center;
-    text-align: center;
-    padding: 2em;
-}
+
 .navigation  {
     display: flex;
     justify-content: space-around;
@@ -117,15 +93,26 @@ main{
     flex-direction: column;
     justify-content: flex-end;
 }
-.hero-text{
-    display: flex;
+#weatherSummary{
+    display: block;
+    left: 50px;
+    bottom: 250px;
     align-items: end;
     box-shadow: 5px 5px 30px;
+    background-color: #222629;
     position: absolute;
     text-align: center;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-column: 3/4;
-    font-size: .8em;
+    font-size: 1em;
+    
+}
+.hero{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 125px 125px 125px 125px 125px;
+    width: 96.5%;
+}
+.hero-image{
+    margin-left: 1em;
 }
 #pancake{
     font-size: 1em;
