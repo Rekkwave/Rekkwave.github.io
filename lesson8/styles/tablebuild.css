@@ -33,6 +33,16 @@ tr:nth-child(even){
 tr {
     background-color: #e7f0ed;
 }
-tfoot{
-    margin: 0 auto;
+td[colspan="3"] {
+    margin: 5px;
+    padding: 5px ;
+    font-size: 12px;
+    background-color: #7fb9c2;
+}
+.Friday{
+    font-style: italic;
+}
+
+td[colspan="1"] {
+    background-color: #628ca6;
 }
