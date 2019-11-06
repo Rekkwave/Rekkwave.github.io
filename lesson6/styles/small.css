@@ -137,15 +137,17 @@
     #forecast {
         display: none;
     }
-    #weathersummary {
+    #weatherSummary{
         display: block;
-        position: absolute;
-        top: 50px;
         left: 50px;
-        background: radial-gradient(#D2FDFF, #B4DFE5);
-        border: 3px solid black;
-        padding: .5rem;
-        box-shadow: 0 0 30px
+        bottom: 250px;
+        align-items: end;
+        box-shadow: 5px 5px 30px;
+        background-color: #222629;
+        position: absolute;
+        text-align: center;
+        font-size: 1em;
+        
     }
     .hero{
         position: relative;

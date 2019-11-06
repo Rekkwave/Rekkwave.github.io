@@ -51,7 +51,12 @@
             </section>
         </section>-->
         <section class="hero">
-                <img class="hero-image" src="/lesson6/images/franklinimagesmallfixed.jpg" srcset="/lesson6/images/franklinimageLARGEfixed.jpg" media="(min-width: 992px)" srcset="/lesson6/images/franklinimageMediumFIXED.jpg" media="(min-width: 600px)" alt="Hero-Image">
+                <picture class="hero-image"> 
+                <source class="hero-image" srcset="/lesson6/images/franklinimageLARGEfixed.jpg" media="(min-width: 992px)" alt="Hero-Image"> 
+                <source class="hero-image" srcset="/lesson6/images/franklinimageMediumFIXED.jpg" media="(min-width: 600px)" alt="Hero-Image">
+                <img    id="hero-small" src="/lesson6/images/franklinimagesmallfixed.jpg" alt="Hero-image" >
+                
+                </picture>
             <section id="weatherSummary">
                 <div>
                     <span>Current Temp: 56&deg; </span>
