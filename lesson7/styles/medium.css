@@ -145,4 +145,7 @@
 main .gallery{
     grid-template-columns: 1fr 1fr;
 }
+.shadow{
+    box-shadow: 5px 5px 1em;
+}
 }

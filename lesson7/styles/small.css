@@ -13,8 +13,9 @@ footer {
         max-width: 100%;
         margin: .5em;
         text-align: center;
-        padding: 1em;
+        padding: .5em;
         color: #86c232;
+        font-family: 'Dosis', sans-serif;
     }
 
     ul {
@@ -137,4 +138,8 @@ footer {
 main .gallery{
     display: grid;
     grid-template-columns: 1fr;
+    padding: 3em;
+    }
+    .shadow{
+        box-shadow: 5px 5px 1em;
     }
