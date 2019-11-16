@@ -2,6 +2,9 @@
     [class*="col-"]{
         width: 70%;
     }
+    .grid{
+        grid-template-columns: 1fr 1fr;
+    }
     .top{
         text-align: center;
     }

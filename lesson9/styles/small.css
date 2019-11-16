@@ -158,4 +158,8 @@
 .hidden{
     display: none;
 }
+.grid{
+    display: grid;
+    grid-column: 1fr;
+}
 }
