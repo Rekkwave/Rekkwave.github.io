@@ -133,4 +133,7 @@ main{
 .hidden{
     display: none;
 }
+div{
+    max-width: 10;
+}
 }
