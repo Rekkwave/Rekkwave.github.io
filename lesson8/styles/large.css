@@ -12,7 +12,7 @@ body{
     padding: 1.1em;
     grid-gap: 1.2em;
     margin: auto;
-    max-width: 60%;
+    max-width: 100%;
     padding: 2em;
     color: #86C232
 }
@@ -135,5 +135,20 @@ main{
 }
 div{
     max-width: 10;
+}
+#dangerRadio{
+    justify-content: center;
+    width: 60%;
+    align-items: center;
+    margin: 0 auto;
+    font-size: .8em;
+    border-style: none;
+}
+.form{
+    border-color: white;
+    padding: 1em;
+    text-align: center;
+    font-weight: bold;
+    font-family: 
 }
 }

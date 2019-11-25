@@ -5,7 +5,7 @@ let currentDateString;
 
 // get day of week
 let weekDayNumber = currentDate.getDay();
-let daysOfWeek =[
+let daysOfWeek = [
     'Sunday',
     'Monday',
     'Tuesday',
@@ -16,8 +16,8 @@ let daysOfWeek =[
 ];
 let weekDay = daysOfWeek[weekDayNumber];
 currentDateString = weekDay + ', ';
-currentDateString  = currentDateString + currentDate.getDate();
-let months =[
+currentDateString = currentDateString + currentDate.getDate();
+let months = [
     'January',
     'February',
     'March',
@@ -40,7 +40,7 @@ console.log(currentDateString);
 
 
 function toggleMenu() {
-	document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
+    document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
 }
 //create 5 day forecast
 let currentDay = weekDayNumber;
@@ -60,12 +60,12 @@ for (let i = 1; i < 6; i++) {
     element.innerHTML = daysOfWeek[currentDay];
 
     // show/hide pancake
-    if (weekDayNumber == 5){
+    if (weekDayNumber == 5) {
         document.getElementById("pancake").removeAttribute("class", "hidden");
     }
 
-    
+
     // wind chill/what it feels like today for weather summary today 
-    
-    
+
+
 }

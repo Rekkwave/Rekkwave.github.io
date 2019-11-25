@@ -2,8 +2,7 @@
 
 fetch(apiURL)
     .then(
-        (response) => response.json({
-        }
+        (response) => response.json()
     )
     .then(
         (currentWeather) => {
@@ -24,4 +23,4 @@ fetch(apiURL)
             document.querySelector('#weather-icon')
             .setAttribute('alt',currentWeather.weather[0].main);
         }
-    ));
+    );
