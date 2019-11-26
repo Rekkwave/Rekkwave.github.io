@@ -8,13 +8,11 @@
 body{
     background-color: #222629;
     font-family: 'Dosis', sans-serif;
-    margin: 1em;
-    padding: 1.1em;
-    grid-gap: 1.2em;
-    margin: auto;
     max-width: 100%;
-    padding: 2em;
-    color: #86C232
+    color: #86C232;
+}
+.superman{
+    background-image: url(lesson8/images/superman.jpg);
 }
 section {
     display: flex;
@@ -93,7 +91,6 @@ main{
     justify-content: center;
     justify-items: center;
     text-align: center;
-    padding: 2em;
 }
 .navigation  {
     display: flex;
@@ -146,9 +143,8 @@ div{
 }
 .form{
     border-color: white;
-    padding: 1em;
     text-align: center;
     font-weight: bold;
-    font-family: 
+    
 }
 }
