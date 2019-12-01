@@ -1,89 +1,63 @@
 const requestURL = 'https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json';
 
-//fetch(requestURL)
- // .then(function (response) {
-   // return response.json();
- // })
- // .then(function (jsonObject) {
- //   console.table(jsonObject);  // temporary checking for valid response and data parsing
-//  });
+fetch(requestURL)
+    .then(response => {
+        response.json()
+            .then(
+                response => {
+                    const prophets = response.prophets;
+                    prophets.forEach(
+                        (prophet) => {
+                            let article = document.createElement('article');
+                            let h2 = document.createElement('h2');
 
-  // fetch(requestURL)
-  //   .then(response => {
-  //       response.json()
-  //       .then(
-  //           response => {
-  //               console.table(response.prophets);
-                
-  //               let prophet = response.prophets[0];
+                            h2.textContent = prophet.name + ' ' + prophet.lastname;
 
-  //               console.log(prophet.name);
-  //           });
-  //   });
-    fetch(requestURL)
-     .then(response => {
-       response.json()
-       .then(
-         response => {
-           const prophets = response.prophets;
+                            article.appendChild(h2);
 
-           prophets.forEach(
-             (prophet) => {
-               //DEBUG:
-               console.log(prophet);
+                            //add date of birth
+                            let birthdatediv = document.createElement('div');
 
-              let article = document.createElement('article');
-              let h2 = document.createElement('h2');
-              
-              h2.textContent = prophet.name + ' ' + prophet.lastname;
-              
-              article.appendChild(h2);
+                            let birthdatelabel = document.createElement('label');
+                            birthdatelabel.textContent = 'Day of Birth: ';
 
-              // add date of birth
-              let birthdateDiv = document.createElement('div');
+                            let birthdateSpan = document.createElement('span');
+                            birthdateSpan.textContent = prophet.birthdate;
 
-              let birthdateLabel = document.createElement('label');
-              birthdateLabel.textContent = 'Date of Birth:';
+                            birthdatediv.appendChild(birthdatelabel);
+                            birthdatediv.appendChild(birthdateSpan);
 
-              let birthdateSpan = document.createElement('span');
-              birthdateSpan.textContent = prophet.birthdate;
-
-              article.appendChild(birthdateLabel);
-              article.appendChild(birthdateSpan);
-
-              article.appendChild(birthdateDiv);
+                            article.appendChild(birthdatediv);
 
 
-              //add place of birth
+                            //add place of birth
+                            let birthplacediv = document.createElement('div');
 
-              let birthplaceDiv = document.createElement('div');
-              
-              let birthplaceLabel = document.createElement('label');
-              birthplaceLabel.textContent = 'Place of Birth:';
+                            let birthplacelabel = document.createElement('label');
+                            birthplacelabel.textContent = 'Place of Birth: ';
 
-              let birthplaceSpan = document.createElement('span');
-              birthplaceSpan.textContent = prophet.birthplace;
+                            let birthplaceSpan = document.createElement('span');
+                            birthplaceSpan.textContent = prophet.birthplace;
 
-              article.appendChild(birthplaceLabel);
-              article.appendChild(birthplaceSpan);
+                            birthplacediv.appendChild(birthplacelabel);
+                            birthplacediv.appendChild(birthplaceSpan);
 
-              article.appendChild(birthplaceDiv);
+                            article.appendChild(birthplacediv);
 
-              // add image
+                            //add an image
 
-              let imageDiv = document.createElement('div');
-              let image = document.createElement('img');
+                            let imageDiv = document.createElement('div');
+                            let image = document.createElement('img');
 
-              image.setAttribute('src', prophet.imageurl);
-              image.setAttribute('alt', prophet.name + ' ' + prophet.lastname + ' - ' + prophet.order);
-              
-              imageDiv.appendChild(image);
+                            image.setAttribute('src', prophet.imageurl);
+                            image.setAttribute('alt', prophet.name + ' ' + prophet.lastname + ' - ' + prophet.order);
 
-              article.appendChild(imageDiv);
+                            imageDiv.appendChild(image);
 
-              document.querySelector('section.prophets').appendChild(article);
-             }
-            ); 
-         });
-     });
-     
+                            article.appendChild(image);
+
+                            document.querySelector('section.prophets').appendChild(article);
+
+                        });
+                });
+    });
