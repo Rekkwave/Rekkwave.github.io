@@ -21,7 +21,7 @@ section {
     justify-items: center;
     text-align: center;
     border-style: double;
-    border-radius: 1em;
+    border-radius: .6em;
     list-style: none;
     padding: 1em;
     font-size: 1.5em;
@@ -34,7 +34,7 @@ li{
 li>a {
     text-decoration: none;
     font-family: 'Dosis', sans-serif;
-    border-radius: 2em;
+    border-radius: .6em;
     color: #86C232;
 }
 ul{
@@ -44,7 +44,7 @@ ul{
     justify-content: center;
     justify-content: space-evenly;
     background-color: #474B4F;
-    border-radius: 2em;
+    border-radius: .6em;
     border-style: inset;
     text-decoration: none;
     padding: .5em;
@@ -130,21 +130,24 @@ main{
 .hidden{
     display: none;
 }
-div{
-    max-width: 10;
-}
 #dangerRadio{
-    justify-content: center;
-    width: 60%;
-    align-items: center;
-    margin: 0 auto;
-    font-size: .8em;
+    text-align: left;
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
     border-style: none;
 }
 .form{
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 12px;
     border-color: white;
-    text-align: center;
+    text-align: left;
+    justify-content: left;
     font-weight: bold;
-    
+}
+#myRange{
+    margin-left: 10px;
+    margin-top: 10px;
 }
 }
