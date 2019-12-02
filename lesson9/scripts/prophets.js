@@ -45,7 +45,6 @@ fetch(requestURL)
                             article.appendChild(birthplacediv);
 
                             //add an image
-
                             let imageDiv = document.createElement('div');
                             let image = document.createElement('img');
 
