@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/lesson10/styles/homepage.css">
+    <link rel="shortcut icon" href="/lesson10/images/spidermanfavicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+    <header>
+        <section>
+            <li><a href="homepage.html"><img id="logo" src="/lesson10/images/cloud.png" alt="logo"></a></li>
+        </section>
+        <section class="title">
+        <h1>The Weather Bugle</h1>
+        <h4>What Every hero needs to know!</h4>
+    </section>
+        <nav>
+            <ul class="navigation">
+                <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                <li class="homepage"><a href="/lesson10/html/homepage.html">Home Page</a></li>
+                <li><a href="preston-10.html">Preston</a></li>
+                <li><a href="soda-springs.html">Soda Springs</a></li>
+                <li><a href="fish-haven.html">Fish Haven</a></li>
+                <li><a href="stormcenter.html">Storm Center</a></li>
+                <li><a href="gallery-7.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="background" style="background-image: url('images/woodbackground.jpg');">
+        <main>
+            <section class="grid">
+
+                <article>
+                    <h1>Preston</h1>
+                    <h2 id="prestonMotto"></h2>
+
+                    <p>
+                        Year founded:
+                        <span id="prestonYearFounded">1866</span>
+                    </p>
+                    <p>
+                        Population:
+                        <span id="prestonCurrentPopulation"></span>
+                    </p>
+                    <p>
+                        Annual Rain Fall:
+                        <span id="prestonAverageRainfall"></span>
+                    </p>
+                    <p>
+                        <li><a href="preston-10.html"><img src="/lesson9/images/preston.jpg" alt="Preston" id="prestonImage"></a></li>
+                    </p>
+                </article>
+
+                <article class="soda">
+                    <h1>Soda Springs</h1>
+                    <h2 id="sodaSpringsMotto"></h2>
+                    <p>
+                        Year founded:
+                        <span id="sodaSpringsYearFounded">1858</span>
+                    </p>
+                    <p>
+                        Population:
+                        <span id="sodaSpringsCurrentPopulation"></span>
+                    </p>
+                    <p>
+                        Annual Rain Fall:
+                        <span id="sodaSpringsAverageRainfall"></span>
+                    </p>
+                    <p>
+                        <li><a href="soda-springs.html"><img src="/lesson9/images/sodasprings.jpg" alt="Soda Springs" id="sodaSpringsImage"></a></li>
+                    </p>
+                </article>
+
+                <article>
+                    
+                        <h1>Fish Haven</h1>
+                        <h2 id="fishHavenMotto"></h2>
+                        <p>
+                            Year founded:
+                            <span id="fishHavenYearFounded">1864</span>
+                        </p>
+                        <p>
+                            Population:
+                            <span id="fishHavenCurrentPopulation"></span>
+                        </p>
+                        <p>
+                            Annual Rain Fall:
+                            <span id="fishHavenAverageRainfall"></span>
+                        </p>
+                        <p>
+                                <li><a href="fish-haven.html"><img src="/lesson9/images/fishhaven.jpg" alt="Fish Haven" id="fishHavenImage"></a></li>
+                        </p>
+                    </article>
+            </section>
+
+        </main>
+
+        <footer>
+            <p>&copy; <span id="currentDate"></span> | Isaac Pulido | BYU-Idaho </p>
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.7738534444!2d-111.91534445925855!3d42.09974162638193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1571256799894!5m2!1sen!2sus"
+                width="200" height="200" style="border:0;"></iframe>
+
+        </footer>
+    </div>
+
+    <script src="/lesson9/scripts/main.js"></script>
+    <script src="/lesson9/scripts/towndata.js"></script>
+</body>
+
+</html>
