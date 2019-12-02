@@ -6,21 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Preston Weather Page</title>
-    <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/main9.css">
-    <link rel="shortcut icon" href="images/favicon48.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/lesson9/styles/homepage.css">
+    <link rel="shortcut icon" href="images/.png" type="image/x-icon">
+    <link rel="shortcut icon" href="/lesson5/images/spidermanfavicon.ico" type="image/x-icon">
 
 </head>
 
 <body>
-    <header class="logoheader">
-        <section class="alignment">
-            <img id="logo" src="images/logo.png" alt="logo">
+    <header>
+        <section>
+            <img id="logo" src="/lesson9/images/cloud.png" alt="logo">
         </section>
+        <section class="title">
+        <h1>The Weather Bugle</h1>
+        <h4>What Every hero needs to know!</h4>
+    </section>
         <nav>
             <ul class="navigation">
                 <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
-                <li><a href="..//lesson9/index.html">Home Page</a></li>
+                <li class="homepage"><a href="..//lesson9/index.html">Home Page</a></li>
                 <li><a href="../lesson11/preston-10.html">Preston</a></li>
                 <li><a href="../lesson11/soda-springs.html">Soda Springs</a></li>
                 <li><a href="../lesson11/fish-haven.html">Fish Haven</a></li>
@@ -38,7 +43,7 @@
                     <h2 id="fishHavenMotto"></h2>
                     <p>
                         Year founded:
-                        <span id="fishHavenYearFounded"></span>
+                        <span id="fishHavenYearFounded">1864</span>
                     </p>
                     <p>
                         Population:
@@ -49,7 +54,7 @@
                         <span id="fishHavenAverageRainfall"></span>
                     </p>
                     <p>
-                        <img src="" alt="Fish Haven" id="fishHavenImage">
+                        <img src="/lesson9/images/fishhaven.jpg" alt="Fish Haven" id="fishHavenImage">
                     </p>
                 </article>
 
@@ -59,7 +64,7 @@
 
                     <p>
                         Year founded:
-                        <span id="prestonYearFounded"></span>
+                        <span id="prestonYearFounded">1866</span>
                     </p>
                     <p>
                         Population:
@@ -70,16 +75,16 @@
                         <span id="prestonAverageRainfall"></span>
                     </p>
                     <p>
-                        <img src="" alt="Preston" id="prestonImage">
+                        <img src="/lesson9/images/preston.jpg" alt="Preston" id="prestonImage">
                     </p>
                 </article>
 
-                <article>
+                <article class="soda">
                     <h1>Soda Springs</h1>
                     <h2 id="sodaSpringsMotto"></h2>
                     <p>
                         Year founded:
-                        <span id="sodaSpringsYearFounded"></span>
+                        <span id="sodaSpringsYearFounded">1858</span>
                     </p>
                     <p>
                         Population:
@@ -90,7 +95,7 @@
                         <span id="sodaSpringsAverageRainfall"></span>
                     </p>
                     <p>
-                        <img src="" alt="Soda Springs" id="sodaSpringsImage">
+                        <img src="/lesson9/images/sodasprings.jpg" alt="Soda Springs" id="sodaSpringsImage">
                     </p>
                 </article>
             </section>
@@ -108,8 +113,7 @@
     </div>
 
     <script src="/lesson9/scripts/main.js"></script>
-    <script src="/lesson9/scripts/maindate.js"></script>
-    <script src="/lesson9/scripts/homepage.js"></script>
+    <script src="/lesson9/scripts/towndata.js"></script>
 </body>
 
 </html>
