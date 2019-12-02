@@ -11,7 +11,7 @@ body{
     margin: auto;
     max-width: 60%;
     padding: 2em;
-    color: #86C232
+    color: white;
 }
 section {
     display: flex;
@@ -26,13 +26,13 @@ section {
 li{
     font-family: 'Dosis', sans-serif;
     list-style: none;
-    color: #86C232;
+    color: white;
 }
 li>a {
     text-decoration: none;
     font-family: 'Dosis', sans-serif;
     border-radius: 2em;
-    color: #86C232;
+    color: white;
 }
 ul{
     border: 1px solid black;
@@ -56,9 +56,6 @@ ul{
 /* id selectors */
 a:hover{
     color: #628E25;
-}
-a:active{
-    background-color: #222629;
 }
 
 

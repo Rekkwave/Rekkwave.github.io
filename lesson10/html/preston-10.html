@@ -5,90 +5,119 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fish-Haven</title>
     <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/lesson10/styles/small.css">
-    <link rel="stylesheet" href="/lesson10/styles/medium.css">
-    <link rel="stylesheet" href="/lesson10/styles/large.css">
+    <link rel="stylesheet" href="/lesson10/styles/preston.css">
     <link rel="shortcut icon" href="/lesson10/images/spidermanfavicon.ico" type="image/x-icon">
-    <title>Idaho Cities</title>
+
 </head>
 
-<!-- <body onload="getFiveDayForecast('5604473')"> -->
+<body>
     <header>
-        <img src="/lesson10/images/cloud.png" alt="Logo" width="200em">
-
-        <section id="pancake" class="hidden">
-            <p>
-                Saturday = Pancakes in the park! Saturday 9:00am at the city park pavilion.
-            </p>
-        </section>
-
-        <h1>The Weather Bugle</h1>
-        <p class="motto">What every Hero needs to know, <br>The Weather</p>
-        <nav>
-
-            <ul class="navigation">
-                <li><a href="#" onclick="toggleMenu()">☰ Menu</a></li>
-                <li><a href="#">Home</a></li>
-                <li class="active"><a href="#">Preston</a></li>
-                <li><a href="#">Soda Springs</a></li>
-                <li><a href="#">Fish</a></li>
-                <li><a href="#">Storm Center</a></li>
-                <li><a href="#">Gallery</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-
-        <h2>Preston, Idaho</h2>
-        <section class="hero">
-                <img class="hero-image" src="/lesson10/images/preston.jpg" alt="Hero Image">
-                <section class="hero-text">
-                    <h2>Weather at a Glance</h2>
-                </section>
-                <p>Now:</p>
-                <p>Today's Highest:</p>
-                <p>Today's Lowest:</p>
+        <main>
+            <section>
+                <li><a href="homepage.html"><img id="logo" src="/lesson10/images/cloud.png" alt="logo"></a></li>
             </section>
+            <section class="title">
+                <h1>The Weather Bugle</h1>
+                <h4>What Every hero needs to know!</h4>
+            </section>
+            <nav>
+                <ul class="navigation">
+                    <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                    <li><a href="/lesson10/html/homepage.html">Home Page</a></li>
+                    <li class="preston" ><a href="preston-10.html">Preston</a></li>
+                    <li><a href="soda-springs.html">Soda Springs</a></li>
+                    <li><a href="fish-haven.html">Fish Haven</a></li>
+                    <li><a href="stormcenter.html">Storm Center</a></li>
+                    <li><a href="gallery-7.html">Gallery</a></li>
+                </ul>
+            </nav>
+    </header>
+    <section class="hero">
+            <img class="heroimg" src="/lesson10/images/preston.jpg" alt="Picture of Fish Haven">
+            
+            </picture>
+        <section id="weatherSummary">
+            <div>
+                <span>Current Temp:</span>
+                <span id="currentTemp"></span>
+            </div>
+            <div>
+                <span>Wind Speed:</span>
+                <span id="windSpeed"></span>
+            </div>
+            <div>
+                <span>Wind Chill:</span>
+                <span id="windChill"></span>
+            </div>
         </section>
-        <section id="forecast">
-            <h3>High Tempurature Forecast</h3>
+    </section>
+    <h1 class="forecastbegin">The Five Day Forecast:</h1>
+    <li class="tableWeather">  
             <table>
                 <tr>
-                    <th>Day</th>
-                    <th id="day1"></th>
-                    <th id="day2"></th>
-                    <th id="day3"></th>
-                    <th id="day4"></th>
-                    <th id="day5"></th>
+                <th>Day</th>
+                <th id="day1"></th>
+                <th id="day2"></th>
+                <th id="day3"></th>
+                <th id="day4"></th>
+                <th id="day5"></th>
                 </tr>
+
                 <tr>
-                    <td>Forecast</td>
+                    <td></td>
+                    <td><img id="img1" src="" alt=""></td>
+                    <td><img id="img2" src="" alt=""></td>
+                    <td><img id="img3" src="" alt=""></td>
+                    <td><img id="img4" src="" alt=""></td>
+                    <td><img id="img5" src="" alt=""></td>
+                </tr>
+
+                <tr>
+                    <td id="forecasttitle">Forecast</td>
                     <td id="temp1"></td>
                     <td id="temp2"></td>
                     <td id="temp3"></td>
                     <td id="temp4"></td>
                     <td id="temp5"></td>
                 </tr>
-                <tr>
-                    <td><img src="img1" alt=""></td>
-                    <td><img src="img1" alt=""></td>
-                    <td><img src="img1" alt=""></td>
-                    <td><img src="img1" alt=""></td>
-                    <td><img src="img1" alt=""></td>
-                </tr>
-            </table>
-        </section>
-    </main>
-</body><br>
-<footer>
-    &copy; Weather Daily Bugle | Isaac Pulido <br> <span id="currentDate"></span>
-    <iframe id="map"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2879.0082163285324!2d-111.78527078478481!3d43.814188979116075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53540b03c3c8b0cd%3A0xfd28a97e4cccebc!2s525%20S%20Center%20St%2C%20Rexburg%2C%20ID%2083460!5e0!3m2!1sen!2sus!4v1571072045962!5m2!1sen!2sus"></iframe>
-</footer>
-<script src="/lesson10/scripts/windchill.js"></script>
-<script src="/lesson10/scripts/five-day-forecast.js"></script>
-<script src="/lesson10/scripts/pancake.js"></script>
 
+
+            </table>
+         </li>
+         <br>
+         <p class="paragraph"> Welcome to the great town of Fish Haven! Here we have all sorts of great attractions! 
+             We are especially known for our fantastic wildlife that is so close! Lots of mountain
+             biking opportunities, hikes to go on and skiing! We are close to kelly mountain for the 
+             skiing and mountainbiking! Check out the weather if you should be skiing or mountainbiking
+             today or plan a day trip here with your family! Have a great time!
+         </p>
+         <br>
+         <p class="paragraph1">Events coming next year:</p>
+         <li class="paragraph2">
+             <ul>Kelly Canyon Downhill Race</ul>
+             <ul>Mountain Biking slopestyle</ul>
+             <ul>Snowboard to the bottom with style</ul>
+             <ul>Community Hike through the canyon</ul>
+        </li>
+        </p>
+
+
+    </main>
+    <footer>
+        <p>&copy; <span id="currentDate"></span> | Isaac Pulido | BYU-Idaho </p>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.7738534444!2d-111.91534445925855!3d42.09974162638193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1571256799894!5m2!1sen!2sus"
+            width="200" height="200" style="border:0;"></iframe>
+
+    </footer>
+    </div>
+
+    <script src="/lesson10/scripts/main.js"></script>
+    <script src="/lesson10/scripts/towndata.js"></script>
+    <script src="/lesson10/scripts/windchill.js"></script>
+
+</body>
 
 </html>
