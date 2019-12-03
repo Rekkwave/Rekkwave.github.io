@@ -21,7 +21,7 @@ li {
     margin-bottom: -6em;
 }
 
-.soda-springs {
+.preston {
     background-color: #628E25;
     margin-left: 5px;
     font-family: 'Dosis', sans-serif;
@@ -105,10 +105,10 @@ iframe {
 
 /*hero image*/
 .heroimg{
-    height: 17em;
-    margin-left: 2.1em;
+    height: 20em;
+    margin-left: 1.8em;
 }
-.weatherSummary{
+#weatherSummary{
     display: none;
     position: absolute;
     top: 30px;
@@ -151,17 +151,44 @@ iframe {
 
 
 
+/*DANGER*/
+
+#dangerRadio{
+    text-align: left;
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+    border-style: none;
+}
+.form{
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 8px;
+    border-color: white;
+    text-align: left;
+    justify-content: left;
+    font-weight: bold;
+    border-radius: 1em;
+    border: solid;
+}
+#myRange{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+
+
 
 /*MediumStuff*/
 @media screen and (min-width: 32.5em) {
-    .weatherSummary{
+    #weatherSummary{
         display: block;
         top: 30px;
         background-color: #474B4f;
         border: 3px solid black;
         padding: .5rem;
         box-shadow: 0 0 30px;
-        margin-left: 5em;
+        margin-left: 9em;
         font-size: 1.5em;
     }
 
@@ -293,7 +320,7 @@ iframe {
 
 /*LargeStuff*/
 @media screen and (min-width: 60em) {
-    .weatherSummary{
+    #weatherSummary{
         display: block;
         top: 30px;
         background-color: #474B4f;
@@ -307,9 +334,8 @@ iframe {
     nav {
         margin-left: 8em;
     }
-
-    footer {
-        margin-left: 8em;
+    footer{
+        margin-right: 2em;
     }
 
     body {
@@ -331,14 +357,13 @@ iframe {
 
     }
     .heroimg{
-        width: 69em;
-        height: 40em;
+        min-width: 69em;
         margin-left: 9em;
     }
 
     /* table stuff */
     .forecastbegin{
-        visibility: visible;
+        display: 
         text-align: center;
         margin-right: 6em;
     }

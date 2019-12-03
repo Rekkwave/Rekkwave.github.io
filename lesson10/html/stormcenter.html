@@ -6,38 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/lesson8/styles/small.css">
-    <link rel="stylesheet" href="/lesson8/styles/medium.css">
-    <link rel="stylesheet" href="/lesson8/styles/large.css">
-    <link rel="shortcut icon" href="/lesson5/images/spidermanfavicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/lesson10/styles/small.css">
+    <link rel="shortcut icon" href="/lesson10/images/spidermanfavicon.ico" type="image/x-icon">
     <title>Idaho Cities</title>
 </head>
 
 <body>
-    <header>
-        <img src="/lesson7/images/cloud.png" alt="Logo" width="200em">
-
-        <section id="pancake" class="hidden">
-            <p>
-                Saturday = Pancakes in the park! Saturday 9:00am at the city park pavilion.
-            </p>
-        </section>
-
-        <h1>The Weather Bugle</h1>
-        <p class="motto">What every Hero needs to know, <br>The Weather</p>
-        <nav>
-
-            <ul class="navigation">
-                <li><a href="#" onclick="toggleMenu()">☰ Menu</a></li>
-                <li><a href="#">Home</a></li>
-                <li class="active"><a href="#">Preston</a></li>
-                <li><a href="#">Soda Springs</a></li>
-                <li><a href="#">Fish</a></li>
-                <li><a href="#">Storm Center</a></li>
-                <li><a href="#">Gallery</a></li>
-            </ul>
-        </nav>
-    </header>
+        <header>
+            <section>
+                <li><a href="homepage.html"><img id="logo" src="/lesson10/images/cloud.png" alt="logo"></a></li>
+            </section>
+            <section class="title">
+                <h1>The Weather Bugle</h1>
+                <h4>What Every hero needs to know!</h4>
+            </section>
+            <nav>
+                <ul class="navigation">
+                    <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                    <li class="homepage"><a href="/lesson10/html/homepage.html">Home Page</a></li>
+                    <li><a href="preston-10.html">Preston</a></li>
+                    <li><a href="soda-springs.html">Soda Springs</a></li>
+                    <li><a href="fish-haven.html">Fish Haven</a></li>
+                    <li><a href="stormcenter.html">Storm Center</a></li>
+                    <li><a href="gallery-7.html">Gallery</a></li>
+                </ul>
+            </nav>
+        </header>
     <main>
         <section class="form">
         <form action="thanks.html" method="GET">
@@ -134,10 +128,13 @@
     </main>
 </body><br>
 <footer>
-    &copy; Weather Daily Bugle | Isaac Pulido <br> <span id="currentDate"></span>
-    <iframe id="map"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2879.0082163285324!2d-111.78527078478481!3d43.814188979116075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53540b03c3c8b0cd%3A0xfd28a97e4cccebc!2s525%20S%20Center%20St%2C%20Rexburg%2C%20ID%2083460!5e0!3m2!1sen!2sus!4v1571072045962!5m2!1sen!2sus"></iframe>
-</footer>
+        <p>&copy; <span id="currentDate"></span> | Isaac Pulido | BYU-Idaho </p>
+
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.7738534444!2d-111.91534445925855!3d42.09974162638193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1571256799894!5m2!1sen!2sus"
+            width="200" height="200" style="border:0;"></iframe>
+
+    </footer>
 </div>
-<script src="/lesson8/scripts/main.js"></script>
+<script src="/lesson10/scripts/main.js"></script>
 </html>

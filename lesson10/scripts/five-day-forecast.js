@@ -9,7 +9,7 @@ function getFiveDayForecast(cityID) {
         'Saturday'
     ];
 
-     const apiForecastURL = "https://api.openweathermap.org/data/2.5/forecast?id=" + cityID + "&appid=2516eba340c4116d3940474f9040b5a2&units=imperial";
+  const apiForecastURL = "https://api.openweathermap.org/data/2.5/forecast?id=" + cityID + "&appid=2516eba340c4116d3940474f9040b5a2&units=imperial";
 
     fetch(apiForecastURL)
         .then(
