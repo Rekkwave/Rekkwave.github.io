@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="/lesson12/homepage/css/styles.css">
+    <link href="/lesson12/homepage/css/styles.css" rel="stylesheet">
     <title>Temple Homepage</title>
 </head>
 <body>
@@ -18,16 +18,46 @@
                 <a href="#">Contact Us</a>
             </ul>
         </li>
-        <img src="" alt="">
-        <h1>Temples</h1>
+        <h1>Today's Temples</h1>
+        <section class="slideShow fade">
+            <section class="slideShowText">
+                <p class="numberText">1 / 6</p>
+                <img class="image" src="/lesson12/images/bountifulslideshow.jpg" alt="Bountiful Temple">
+                <h3 class="text">Bountiful Temple</h3>
+            </section>
+        </section>
+        <section class="slideShow fade">
+            <section class="slideShowText">
+                    <p class="numberText">2 / 6</p>
+                    <img class="image" src="/lesson12/images/columbiariverslideshow.jpg" alt="Bountiful Temple">
+                    <h3 class="text">Columbia River Temple</h3>
+                </section>
+            </section>
+            <section class="slideShow fade">
+                <section class="slideShowText">
+                        <p class="numberText">3 / 6</p>
+                        <img class="image" src="/lesson12/images/spokanetempleslideshow.jpg" alt="Bountiful Temple">
+                        <h3 class="text">Spokane Temple</h3>
+                    </section>
+                    </section>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</section>
+<section class="dots">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+</section>
     </header>
     <main>
-        <section class="buttons">
-        <button><p>Full-Time Missionaries</p></button>
-        <button><p>Receptions</p></button>
-        </section>
+        <li class="Buttons">
+            <ul>
+                <li class="fullTimeButton"><a href="#">Full-Time Missionaries</a></li>
+                <li class="receptionButton"><a href="#">Reception</a></li>
+            </ul>
         
     </main>
-    
+    <script src="/lesson12/scripts/slideshow.js"></script>
 </body>
+
 </html>
