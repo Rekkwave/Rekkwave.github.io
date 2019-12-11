@@ -7,7 +7,8 @@ body {
     background-color: #222629;
 
 }
-li{
+
+li {
     padding-left: .15em;
     padding-right: .15em;
     margin: 0 auto;
@@ -18,12 +19,14 @@ li{
     max-width: 30%;
     margin-left: 8.2em;
 }
-.homepage{
+
+.homepage {
     background-color: #628E25;
     margin-left: 5px;
     font-family: 'Dosis', sans-serif;
 }
-.title{
+
+.title {
     text-align: center;
 }
 
@@ -61,7 +64,8 @@ nav {
     text-align: center;
     text-decoration: none;
 }
-a:active{
+
+a:active {
     background-color: #222629;
 }
 
@@ -110,7 +114,7 @@ h2 {
 
 p {
     font-size: 15px;
-   margin: 10px;
+    margin: 10px;
 }
 
 img {
@@ -148,17 +152,19 @@ iframe {
 /*MedWidth*/
 @media screen and (min-width: 32.5em) {
 
-    body{
+    body {
         font-family: 'Dosis', sans-serif;
     }
-    .soda{
+
+    .soda {
         margin-top: 1em;
     }
-    #logo{
+
+    #logo {
         max-width: 20%;
     }
 
-/*Links*/
+    /*Links*/
 
     .navigation {
         display: flex;
@@ -177,15 +183,16 @@ iframe {
     .navigation li a {
         color: #ffffff;
     }
-    nav{
+
+    nav {
         margin-left: 5em;
     }
 
-    footer{
+    footer {
         margin-left: 5em;
     }
 
- /*Main*/
+    /*Main*/
 
     .grid {
         grid-template-columns: 1fr 1fr;
@@ -212,32 +219,39 @@ iframe {
     img {
         max-width: 22em;
     }
-    .grid{
+
+    .grid {
         margin: 3em;
-        
+
     }
 }
 
 
-
+/* Large */
 @media screen and (min-width: 62em) {
 
-    body{
+    body {
         font-family: 'Dosis', sans-serif;
         margin-left: 5em;
     }
-    #logo{
-        max-width: 12.5%;
+
+    #logo {
+    max-width: 12.5%;
+    margin: 0 -30em -3em 0;
+    }
+    nav{
+        max-width: 100%;
     }
 
-/*Links*/
+    /*Links*/
 
     .navigation li a {
         color: white;
     }
+
     .grid {
         grid-template-columns: 1fr 1fr 1fr;
         margin-left: -5em;
-        
+
     }
 }
