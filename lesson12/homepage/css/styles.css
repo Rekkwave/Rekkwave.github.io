@@ -19,7 +19,6 @@
 
 .text {
   text-align: center;
-  color: #ffcc33;
   font-size: 2em;
   bottom: 1.3em;
 }
@@ -61,11 +60,10 @@
   user-select: none;
   background-color: black;
 }
-
-.grid-main {
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(5, 1fr);
+h3{
+  text-align: center;
 }
+
 
 .image {
   margin-left: 16%;
@@ -108,10 +106,25 @@ body {
   color: #ffcc33;
   background-color: white;
 }
+.footer{
+  background-color: #66D7D1;
+  color: white;
+  text-align: center;
+  margin: 0em;
+  width: 100%;
+  font-size: 1.3em;
+  padding: .1em;
+}
+h3{
+  background-color: #66D7D1;
+  color: white;
+  padding: 1em;
+  border-radius: 1em;
+}
 
 #logo {
   width: 20%;
-  margin-left: 2.2em;
+  margin-left: 11.2em;
 }
 
 /* Links */
@@ -226,16 +239,28 @@ h2{
   box-shadow: 1px 1px 2px 1px #B4D2BA;
 }
 .card:hover{
-  box-shadow: 0 1px 0 1px #ffcc33 ;
+  box-shadow: 0 5px 0 5px #ffcc33 ;
 }
 .media{
   width: 60%;
-  background-color: #B4D2BA;
+  background-color;
   overflow: hidden;
   transition: 0.3;
   margin-left: 5em;
+  padding-bottom: 1em;
 }
-
+.cardlink{
+  text-decoration: none;
+}
+.cardlink:visited{
+  color: white;
+}
+.middle{
+  padding: 0em;
+  margin: 0em;
+  text-align: center;
+  font-size: 1.3em;
+}
 
 
 
@@ -315,10 +340,6 @@ h2{
     color: #ffffff;
   }
 
-  footer {
-    margin-left: 5em;
-  }
-
   /*Main*/
 
   .grid {
@@ -370,10 +391,13 @@ h2{
     padding: .4em;
   
   }
+  h3{
+    text-align: center;
+  }
   .receptionButton{
     font-size: 1.25em;
     float: right;
-    margin: -1.4em -5em 0em -2em;
+    margin: -1.4em 2em 0em -2em;
     text-decoration: none;
     color: white;
     background-color: #66D7D1;
@@ -382,26 +406,40 @@ h2{
   .calltoserve{
     font-size: 1.5em;
     float: right;
-    margin: -1.5em 2em 0em 0em;
+    margin: -1.5em 3.5em 0em 0em;
     text-decoration: none;
     color: white;
     background-color: #ffcc33;
     padding: .4em;
   }
+  .home-grid{
+    grid-template-columns: 1fr 1fr;
+  }
+  .card{
+    margin: 1em 0em 1em 2em;
+    padding: 2em;
+  }
+  .card1{
+    padding-bottom: 3em;
+  }
+  .media{
+    margin: 1em 1em 1em 1.5em;
+    width: 80%;
+  }
+  .media1{
+    width: 100%;
+    margin: 1em 1em 1em .25em;
+    height: 10em;
+  }
+  .middle{
+    padding: 0em;
+    margin: 0em;
+    text-align: center;
+    font-size: 1.3em;
+  }
 
   /* end of that */
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -474,10 +512,6 @@ h2{
 
   .navigation li a {
     color: #ffffff;
-  }
-
-  footer {
-    margin-left: 5em;
   }
 
   /*Main*/
@@ -610,7 +644,7 @@ h2{
   }
   .fullTimeButton{
     font-size: 2.4em;
-    margin: -1em 1em 0em 6em;
+    margin: 1em 1em 0em 6em;
     text-decoration: none;
     color: white;
     background-color: #66D7D1;
@@ -620,7 +654,7 @@ h2{
   .calltoserve{
     font-size: 2.7em;
     float: right;
-    margin: -1.4em 8em -1em 0em;
+    margin: -1em 8em -1em 0em;
     text-decoration: none;
     color: white;
     background-color: #ffcc33;
@@ -653,6 +687,35 @@ h2{
     margin: 0em 6.7em 0 7em;
     user-select: none;
     background-color: black;
+  }
+  h3{
+    margin: 2.5em;
+    font-size: 2em;
+  }
+  .footer{
+    font-size: 2.5em;
+    padding: .1em;
+    margin: 0em 0em 0em -1em;
+  }
+  .home-grid{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  h2{
+    font-size: 2em;
+  }
+  .card1{
+    padding-bottom: 3em;
+  }
+  .media1{
+    width: 100%;
+    margin: 1em 1em 1em .25em;
+    height: 24em;
+  }
+  .middle{
+    padding: 0em;
+    margin: 3em 0em 3em 0em;
+    text-align: center;
+    font-size: 2.3em;
   }
   /* eBic stuff here  */
 }
