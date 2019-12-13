@@ -68,7 +68,7 @@
 }
 
 .image {
-  margin-left: 10%;
+  margin-left: 16%;
   width: 20em;
   height: 20em;
 }
@@ -103,7 +103,7 @@
 
 /* end of slideshow */
 
-
+/* Copy this for other pages */
 body {
   color: #ffcc33;
   background-color: white;
@@ -164,6 +164,8 @@ li {
   list-style: none;
 }
 
+/* Right here is where to end */
+
 /*Main*/
 .grid {
   display: grid;
@@ -177,8 +179,8 @@ h1 {
   font-size: 3em;
 }
 .fullTimeButton{
-  font-size: 3em;
-  margin: -1em 0 0 3em;
+  font-size: .95em;
+  margin:-1em 0em 0em -2em;
   text-decoration: none;
   color: white;
   background-color: #66D7D1;
@@ -186,18 +188,18 @@ h1 {
 
 }
 .receptionButton{
-  font-size: 3em;
+  font-size: 1em;
   float: right;
-  margin: -1.4em 6em 1.3em 0;
+  margin: -1.4em 3em 0em -2em;
   text-decoration: none;
   color: white;
   background-color: #66D7D1;
   padding: .3em;
 }
 .calltoserve{
-  font-size: 3.5em;
+  font-size: 1em;
   float: right;
-  margin: -1em 4.5em 1.3em 0;
+  margin: -1.5em 3em 0.3em 0em;
   text-decoration: none;
   color: white;
   background-color: #ffcc33;
@@ -206,8 +208,33 @@ h1 {
 
 
 /* Media Cards */
-
-
+.home-grid{
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+h2{
+  text-align: center;
+}
+.card{
+  width: 100%;
+  padding: .1em;
+  grid-gap: 1em;
+  background-color: #66D7D1;
+  margin-bottom: 1em;
+  border-radius: 1em;
+  box-shadow: 1px 1px 2px 1px #B4D2BA;
+}
+.card:hover{
+  box-shadow: 0 1px 0 1px #ffcc33 ;
+}
+.media{
+  width: 60%;
+  background-color: #B4D2BA;
+  overflow: hidden;
+  transition: 0.3;
+  margin-left: 5em;
+}
 
 
 
@@ -320,6 +347,9 @@ h1 {
     margin-top: .2em;
   }
 
+
+  /* Dont copy this over */
+
   .image {
     margin-left: 4em;
     width: 39.5em;
@@ -330,6 +360,36 @@ h1 {
     margin: 3em;
 
   }
+
+  .fullTimeButton{
+    font-size: 1.25em;
+    margin:-1em 0em 0em -2em;
+    text-decoration: none;
+    color: white;
+    background-color: #66D7D1;
+    padding: .4em;
+  
+  }
+  .receptionButton{
+    font-size: 1.25em;
+    float: right;
+    margin: -1.4em -5em 0em -2em;
+    text-decoration: none;
+    color: white;
+    background-color: #66D7D1;
+    padding: .5em;
+  }
+  .calltoserve{
+    font-size: 1.5em;
+    float: right;
+    margin: -1.5em 2em 0em 0em;
+    text-decoration: none;
+    color: white;
+    background-color: #ffcc33;
+    padding: .4em;
+  }
+
+  /* end of that */
 }
 
 
@@ -364,6 +424,7 @@ h1 {
     font-family: 'Dosis', sans-serif;
   }
 
+  /* don't copy this over */
   .prev,
   .next {
     cursor: pointer;
@@ -381,6 +442,7 @@ h1 {
     user-select: none;
     background-color: black;
   }
+  /* yeet */
 
   #logo {
     max-width: 15%;
@@ -445,6 +507,7 @@ h1 {
   .text {
     margin-top: .2em;
   }
+  /*dont copy this */
 
   .image {
     margin-left: 6em;
@@ -456,6 +519,36 @@ h1 {
     margin: 3em;
 
   }
+
+  .fullTimeButton{
+    font-size: 2em;
+    margin: -1em 0em 0em -1em;
+    text-decoration: none;
+    color: white;
+    background-color: #66D7D1;
+    padding: .4em;
+  
+  }
+  .receptionButton{
+    font-size: 2em;
+
+    float: right;
+    margin: -1.4em 0em 0em 0em;
+    text-decoration: none;
+    color: white;
+    background-color: #66D7D1;
+    padding: .5em;
+  }
+  .calltoserve{
+    font-size: 2.3em;
+    float: right;
+    margin: -1.4em 1em -1em 0em;
+    text-decoration: none;
+    color: white;
+    background-color: #ffcc33;
+    padding: .4em;
+  }
+  /* end of that */
 }
 
 
@@ -515,7 +608,35 @@ h1 {
     width: 110em;
     height: 40em;
   }
+  .fullTimeButton{
+    font-size: 2.4em;
+    margin: -1em 1em 0em 6em;
+    text-decoration: none;
+    color: white;
+    background-color: #66D7D1;
+    padding: .4em;
+  
+  }
+  .calltoserve{
+    font-size: 2.7em;
+    float: right;
+    margin: -1.4em 8em -1em 0em;
+    text-decoration: none;
+    color: white;
+    background-color: #ffcc33;
+    padding: .4em;
+  }
+  .receptionButton{
+    font-size: 2.4em;
+    float: right;
+    margin: -1.4em 8em 0em 0em;
+    text-decoration: none;
+    color: white;
+    background-color: #66D7D1;
+    padding: .5em;
+  }
 
+  /* dont copy this over */
   .prev,
   .next {
     cursor: pointer;
@@ -533,4 +654,5 @@ h1 {
     user-select: none;
     background-color: black;
   }
+  /* eBic stuff here  */
 }

@@ -1,0 +1,42 @@
+[
+    {
+    "TempleID" : 1,
+    "Temple" : "Bountiful Temple",
+    "Location" : "Bountiful, Utah",
+    "yearBuilt" : 2005,
+    "image" : "",
+    "Services" : [
+        "Clothing rental available",
+        "No Cafeteria available",
+        "No patron housing available",
+        "Distribution center nearby"
+    ],
+    "Address" : {
+        "streetLine1" : "700 South",
+        "streetLine2" : null,
+        "City" : "Bountiful",
+        "State" : "UT",
+        "Zip" : 98902
+    } 
+},
+{
+    "TempleID" : 2,
+    "Temple" : "Oakland Temple",
+    "Location" : "Oakland, California",
+    "yearBuilt" : 2006,
+    "image" : "",
+    "Services" : [
+        "Clothing rental available",
+        "No Cafeteria available",
+        "No patron housing available",
+        "Distribution center nearby"
+    ],
+    "Address" : {
+        "streetLine1" : "502 South",
+        "streetLine2" : null,
+        "City" : "Oakland",
+        "State" : "CA",
+        "Zip" : 98903
+    } 
+}
+]
