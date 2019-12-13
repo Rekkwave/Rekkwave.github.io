@@ -4,9 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/reservations.css">
     <title>Make A Reservation</title>
 </head>
 <body>
-    
+    <header>
+        <section>
+            <a href="/lesson12/homepage/html/homepage.html"><img id="logo" src="/lesson12/images/logo.jpg" alt="logo"></a>
+        </section>
+        <h1>Temples</h1>
+        <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="/lesson12/homepage/html/homepage.html">Home</a></li>
+            <li><a href="/lesson12/homepage/html/temples.html">Temples</a></li>
+            <li class="homepage"><a href="/lesson12/homepage/html/reservations.html">Reservations</a></li>
+            <li><a href="#">Services Page</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+        </nav>
+    </header>
+    <main>
+        <form action="thanks.html" method="GET">
+            <div>
+            <label for="fullName">Name Here:</label>
+            <input type="text" id="fullName" name="fullName">
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="user@email.com">
+            </div>
+            <div>
+                <label for="mobilePhone">Phone Number:</label>
+                <input type="tel" id="mobilePhone" name="mobilePhone" required>
+            </div>
+            <div>
+                <label for="date">Reservation Date:</label>
+                <input type="">
+            </div>
+        </form>
+    </main>
+    <footer class="footer">
+        <p>&copy; 2019 | Isaac Pulido | BYU-Idaho | <a href="/lesson12/homepage/html/References.html">References</a></p>
+    </footer> 
 </body>
 </html>
