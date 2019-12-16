@@ -1,54 +1,90 @@
-function getFiveDayForecast(cityID) {
-    var daysOfWeek = [
-        'Sunday',
-        'Monday',
-        'Tuesday',
-        'Wednesday',
-        'Thursday',
-        'Friday',
-        'Saturday'
-    ];
+const apiURL1 = "https://api.openweathermap.org/data/2.5/forecast?id=5688025&appid=e7417cd17600333ed2c8368b935da8ef&units=imperial";
 
- // const apiForecastURL = "https://api.openweathermap.org/data/2.5/forecast?id=" + cityID + "&appid=e7417cd17600333ed2c8368b935da8ef&units=imperial";
-
-    fetch(apiForecastURL)
+    fetch(apiURL1)
         .then(
             (response) => response.json()
         )
 
         .then(
-            (forecasts) => {
+            (currentWeather) => {
+                let currentTemp = currentWeather.main.temp;
 
 
-                let hourString = '18:00:00';
-                let counter = 1;
+                    document.getElementById("currentTemp1").innerHTML = currentTemp + '&deg';
+            });
+
+//  const apiURL2 = "https://api.openweathermap.org/data/2.5/forecast?id=5771826&appid=e7417cd17600333ed2c8368b935da8ef&units=imperial";
+
+             fetch(apiURL2)
+        .then(
+            (response) => response.json()
+        )
+
+        .then(
+            (currentWeather) => {
+                let currentTemp = currentWeather.main.temp;
 
 
-                //Loop through results
-                forecasts.list.forEach(
-                    (forecast) => {
-                        if (forecast.dt_txt.includes(hourString)) {
-
-                            const tempElement = document.getElementById(`temp${counter}`);
-                            tempElement.innerHTML = forecast.main.temp + '&deg;F';
-
-                            let nextDate = new Date(forecast.dt_txt);
-                            const dayElement = document.getElementById(`day${counter}`);
-                            dayElement.innerHTML = daysOfWeek[nextDate.getDay()];
+                    document.getElementById("currentTemp2").innerHTML = currentTemp + '&deg';
+            });
 
 
-                            const imageElement = document.getElementById(`img${counter}`);
-                            imageElement.setAttribute('src', 'https://openweathermap.org/img/w/' +
-                                forecast.weather[0].icon + '.png');
-                            imageElement.setAttribute('alt', forecast.weather[0].main);
-
-                            counter += 1;
+   //  const apiURL3 = "https://api.openweathermap.org/data/2.5/forecast?id=5808276&appid=e7417cd17600333ed2c8368b935da8ef&units=imperial";
 
 
+            fetch(apiURL3)
+        .then(
+            (response) => response.json()
+        )
 
-                        }
-                    }
-                );
-            }
-        );
-}
+        .then(
+            (currentWeather) => {
+                let currentTemp = currentWeather.main.temp;
+
+
+                    document.getElementById("currentTemp3").innerHTML = currentTemp + '&deg';
+            });
+
+ //   const apiURL4 = "https://api.openweathermap.org/data/2.5/forecast?id=5378538&appid=e7417cd17600333ed2c8368b935da8ef&units=imperial";
+
+            fetch(apiURL4)
+        .then(
+            (response) => response.json()
+        )
+
+        .then(
+            (currentWeather) => {
+                let currentTemp = currentWeather.main.temp;
+
+
+                    document.getElementById("currentTemp4").innerHTML = currentTemp + '&deg';
+            });
+
+   //    const apiURL5 = "https://api.openweathermap.org/data/2.5/forecast?id=4975802&appid=e7417cd17600333ed2c8368b935da8ef&units=imperial";
+
+            fetch(apiURL5)
+        .then(
+            (response) => response.json()
+        )
+
+        .then(
+            (currentWeather) => {
+                let currentTemp = currentWeather.main.temp;
+
+                    document.getElementById("currentTemp5").innerHTML = currentTemp + '&deg';
+            });
+
+     //   const apiURL6 = "https://api.openweathermap.org/data/2.5/forecast?id=5811696&appid=e7417cd17600333ed2c8368b935da8ef&units=imperial";
+
+            fetch(apiURL6)
+        .then(
+            (response) => response.json()
+        )
+
+        .then(
+            (currentWeather) => {
+                let currentTemp = currentWeather.main.temp;
+
+
+                    document.getElementById("currentTemp6").innerHTML = currentTemp + '&deg';
+            });

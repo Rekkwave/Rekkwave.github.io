@@ -1,5 +1,6 @@
 body {
     color: #ffcc33;
+    width: 100%;
     background-color: white;
   }
   .homepage{
@@ -9,8 +10,8 @@ body {
     background-color: #66D7D1;
     color: white;
     text-align: center;
-    margin: 0em;
-    width: 100%;
+    margin: 0 auto;
+    width: 95%;
     font-size: 1.3em;
     padding: .1em;
     margin-top: .8em;
@@ -348,6 +349,7 @@ nav {
 }
 h2{
   font-size: 2em;
+  margin-bottom: .5em;
 }
 .card1{
     margin-bottom: 3em;
@@ -358,12 +360,12 @@ h2{
   height: 25em;
 }
 .card{
-    margin: 1em 0em 1em 8em;
-    padding: 2em;
+    margin: 0em 0em 1em 4em;
+    padding: 1em;
 }
 .middle{
   padding: 0em;
-  margin: 0em;
+  margin: 1em;
   text-align: left;
   font-size: 2.3em;
 }
@@ -374,11 +376,12 @@ h2{
   }
 
   nav {
-    max-width: 100%;
+    max-width: 95%;
     font-size: 1.3em;
+    margin-left: 2em;
   }
   #logo{
-      margin-left: 63em;
+      margin-left: 43em;
       width: 10%;
   }
   .footer{
@@ -405,7 +408,15 @@ h2{
     text-align: left;
   }
   .templelocation{
-    font-size: .6em;
+    font-size: .3em;
+    margin-left: -2em;
+    margin-right: -3em;
+  }
+  .templeName{
+    font-size: 1em;
+    margin-top: -12.5em;
+    margin-bottom: 8em;
+    color: white;
   }
 
 }
