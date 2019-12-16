@@ -5,7 +5,9 @@
   text-decoration: none;
 
 }
-
+.homepage{
+  background-color: #ffcc33;
+}
 .slideshow-container {
   max-width: 80%;
   position: relative;
@@ -152,7 +154,7 @@ nav {
 
 .navigation a {
   display: block;
-  color: #ffcc33;
+  color: white;
   padding: .75em;
   text-align: center;
   text-decoration: none;

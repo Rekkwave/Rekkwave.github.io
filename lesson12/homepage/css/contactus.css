@@ -15,6 +15,9 @@ body {
     padding: .1em;
     margin-top: .8em;
   }
+  h1{
+      text-align: center;
+  }
   h3{
     background-color: #66D7D1;
     color: white;
@@ -84,115 +87,110 @@ body {
   
   /* Right here is where to end */
   
-  /*Main*/
-  
-  h1 {
+
+
+main{
     text-align: center;
-    font-size: 3em;
-  }
-  form{
-    font-size: 2em;
-    font-weight: bold;
-    margin-left: 1em;
-  }
-  input{
-    padding: .6em;
-  }
-  main{
-    display: flex;
+    margin-top: 2em;
     flex-direction: column;
-    border: solid;
-    padding: 1em;
-    text-align: center;
-    border-radius: .7em;
-  }
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+
+
+
+
+
+
+
 
 
 
   /*Medwidth*/
   @media screen and (min-width: 32.5em) {
 
-      /*Links*/
-
-  .navigation {
-    display: flex;
-    font-family: 'Dosis', sans-serif;
-  }
-
-  nav {
-    max-width: 100%;
-    overflow: hidden;
-    background-color: #66D7D1;
-  }
-
-  .navigation li:first-child {
-    display: none;
-  }
-
-  .navigation li {
-    display: block;
-    flex: 1 1 100%;
-  }
-
-  .navigation li a {
-    color: #ffffff;
-  }
-  #logo{
-      margin-left: 18.5em;
-  }
-  }
-
-  /*MedLarge*/
-@media screen and (min-width: 50em) {
     /*Links*/
 
-  .navigation {
-    display: flex;
-    font-family: 'Dosis', sans-serif;
-  }
+.navigation {
+  display: flex;
+  font-family: 'Dosis', sans-serif;
+}
 
-  nav {
-    max-width: 100%;
-    font-size: 1.2em;
-    background-color: #66D7D1;
-  }
+nav {
+  max-width: 100%;
+  overflow: hidden;
+  background-color: #66D7D1;
+}
 
-  .navigation li:first-child {
-    display: none;
-  }
+.navigation li:first-child {
+  display: none;
+}
 
-  .navigation li {
-    display: block;
-    flex: 1 1 100%;
-  }
+.navigation li {
+  display: block;
+  flex: 1 1 100%;
+}
 
-  .navigation li a {
-    color: #ffffff;
-  }
-  /*end*/
-  /*logo*/
-  #logo{
-      margin-left: 20em;
-  }
+.navigation li a {
+  color: #ffffff;
+}
+#logo{
+    margin-left: 18.5em;
+}
+}
+
+/*MedLarge*/
+@media screen and (min-width: 50em) {
+  /*Links*/
+
+.navigation {
+  display: flex;
+  font-family: 'Dosis', sans-serif;
+}
+
+nav {
+  max-width: 100%;
+  font-size: 1.2em;
+  background-color: #66D7D1;
+}
+
+.navigation li:first-child {
+  display: none;
+}
+
+.navigation li {
+  display: block;
+  flex: 1 1 100%;
+}
+
+.navigation li a {
+  color: #ffffff;
+}
+/*end*/
+/*logo*/
+#logo{
+    margin-left: 20em;
+}
 }
 
 /*Large*/
 @media screen and (min-width: 62em) {
-     /*Links*/
+   /*Links*/
 
-  .navigation li a {
-    color: white;
-  }
+.navigation li a {
+  color: white;
+}
 
-  nav {
-    max-width: 100%;
-    font-size: 1.3em;
-  }
-  #logo{
-      margin-left: 63em;
-      width: 10%;
-  }
-  .footer{
-      font-size: 1.5em;
-  }
+nav {
+  max-width: 100%;
+  font-size: 1.3em;
+}
+#logo{
+    margin-left: 63em;
+    width: 10%;
+}
+.footer{
+    font-size: 1.5em;
+}
 }

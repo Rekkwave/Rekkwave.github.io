@@ -1,61 +1,299 @@
-[
-    {
+[{
     "TempleID" : 1,
     "Temple" : "Bountiful Temple",
     "Location" : "Bountiful, Utah",
-    "yearBuilt" : 1995,
-    "Services" : [
-        "Clothing rental available",
-        "Cafeteria available",
-        "No patron housing available",
-        "Distribution center nearby"
-    ],
+    "yearBuilt" : "8 January, 1995",
+    "groundBreaking" : "2 May, 1992",
+    "announced" : "2 Februay, 1990",
+    "Services" : {
+        "service1" : "&bull; Clothing rental available",
+        "service2" : "&bull; Cafeteria available",
+        "service3" : "&bull; No patron housing available",
+        "service4" : "&bull; Distribution center nearby"
+    },
     "Address" : {
-        "streetLine1" : "630 S Bountiful Blvd",
-        "streetLine2" : null,
-        "City" : "Bountiful",
-        "State" : "UT",
-        "Zip" : "84010-1394"
+        "Street" : "630 S Bountiful Blvd",
+        "City" : "Bountiful, UT",
+        "Zip" : "84010-1394",
+        "Filler" : "this is invalid"
     },
     "Telephone" : "(1) 801-296-2100",
-    "Closures" : [
-        "Tuesday, 24 December 2019",
-        "Wednesday, 25 December 2019",
-        "Tuesday, 31 December 2019",
-        "Wednesday, 1 January 2020",
-        "Saturday, 4 April 2020",
-        "Monday, 13 April 2020 - Monday, 27 April 2020",
-        "Saturday, 4 July 2020",
-        "Friday, 17 July 2020 (Limited Hours)",
-        "Friday, 24 July 2020",
-        "Monday, 14 September 2020 - Monday, 28 September 2020",
-        "Saturday, 3 October 2020",
-        "Saturday, 31 October 2020 (Limited Hours)",
-        "Wednesday, 25 November 2020",
-        "Thursday, 26 November 2020",
-        "Thursday, 24 December 2020",
-        "Friday, 25 December 2020",
-        "Thursday, 31 December 2020"
-    ]
+    "Ordinances" : {
+        "sealing" : "&bull; 6:30 AM - 9:30 PM Walk-ins and Appointments",
+        "baptism" : "&bull; 4:00 PM - 9:00 PM Family Priority Time - Appointments Only",
+        "initiatory" : "&bull; 6:00 AM - 8:30 PM Walk-ins Only"
+    },
+    "Endowments" : {
+        "endowment1" : "&bull; 4:00 PM Walk-ins and Appointments",
+        "endowment2" : "&bull; 4:30 PM Walk-ins and Appointments",
+        "endowment3" : "&bull; 5:00 PM Walk-ins and Appointments",
+        "endowment4" : "&bull; 5:30 PM Walk-ins and Appointments",
+        "endowment5" : "&bull; 6:00 PM Walk-ins and Appointments",
+        "endowment6" : "&bull; 6:30 PM Walk-ins and Appointments - Spanish",
+        "endowment7" : "&bull; 7:00 PM Walk-ins and Appointments",
+        "endowment8" : "&bull; 7:30 PM Walk-ins and Appointments",
+        "endowment9" : "&bull; 8:30 PM Walk-ins and Appointments"
+    },
+    "Closures" : {
+        
+        "closure1" : "&bull; Tuesday, 24 December 2019",
+        "closure2" : "&bull; Wednesday, 25 December 2019",
+        "closure3" : "&bull; Tuesday, 31 December 2019",
+        "closure4" : "&bull; Wednesday, 1 January 2020",
+        "closure5" : "&bull; Saturday, 4 April 2020",
+        "closure6" : "&bull; Monday, 13 April 2020 - Monday, 27 April 2020",
+        "closure7" : "&bull; Saturday, 4 July 2020",
+        "closure8" : "&bull; Friday, 17 July 2020 (Limited Hours)",
+        "closure9" : "&bull; Friday, 24 July 2020",
+        "closure10" : "&bull; Monday, 14 September 2020 - Monday, 28 September 2020",
+        "closure11" : "&bull; Saturday, 3 October 2020",
+        "closure12" : "&bull; Saturday, 31 October 2020 (Limited Hours)",
+        "closure13" : "&bull; Wednesday, 25 November 2020",
+        "closure14" : "&bull; Thursday, 26 November 2020",
+        "closure15" : "&bull; Thursday, 24 December 2020",
+        "closure16" : "&bull; Friday, 25 December 2020",
+        "closure17" : "&bull; Thursday, 31 December 2020"
+    }
 },
 {
     "TempleID" : 2,
-    "Temple" : "Oakland Temple",
-    "Location" : "Oakland, California",
-    "yearBuilt" : 2006,
-    "image" : "",
-    "Services" : [
-        "Clothing rental available",
-        "No Cafeteria available",
-        "No patron housing available",
-        "Distribution center nearby"
-    ],
+    "Temple" : "Columbia River Temple",
+    "Location" : "Richland, Washington",
+    "yearBuilt" : "18 November, 2001",
+    "groundBreaking" : "28 October, 2000",
+    "announced" : "2 April, 2000",
+    "Services" : {
+        "service1" : "&bull; No Clothing rental available",
+        "service2" : "&bull; No Cafeteria available",
+        "service3" : "&bull; No patron housing available",
+        "service4" : "&bull; Distribution center nearby"
+    },
     "Address" : {
-        "streetLine1" : "502 South",
-        "streetLine2" : null,
-        "City" : "Oakland",
-        "State" : "CA",
-        "Zip" : 98903
-    } 
+        "Street" : "969 Gage Blvd",
+        "City" : "Richland, WA",
+        "Zip" : "99352-7777",
+        "Filler" : "this is invalid"
+    },
+    "Telephone" : "(1) 509-628-0990",
+    "Ordinances" : {
+        "sealing" : "&bull; 6:30 AM - 9:30 PM Walk-ins and Appointments",
+        "baptism" : "&bull; 4:00 PM - 9:00 PM Family Priority Time - Appointments Only",
+        "initiatory" : "&bull; 6:00 AM - 8:30 PM Walk-ins Only"
+    },
+    "Endowments" : {
+        "endowment1" : "&bull; 4:00 PM Walk-ins and Appointments",
+        "endowment2" : "&bull; 4:30 PM Walk-ins and Appointments - Spanish",
+        "endowment3" : "&bull; 6:30 PM Walk-ins and Appointments",
+        "endowment4" : "&bull; 7:00 PM Walk-ins and Appointments"
+    },
+    "Closures" : {
+        
+        "closure1" : "&bull; Tuesday, 24 December 2019",
+        "closure2" : "&bull; Wednesday, 25 December 2019",
+        "closure3" : "&bull; Tuesday, 31 December 2019",
+        "closure4" : "&bull; Wednesday, 1 January 2020",
+        "closure5" : "&bull; Saturday, 4 April 2020",
+        "closure6" : "&bull; Saturday, 4 July 2020",
+        "closure7" : "&bull; Monday, 7 September 2020 - Monday, 19 October 2020",
+        "closure8" : "&bull; Wednesday, 25 November 2020",
+        "closure9" : "&bull; Thursday, 26 November 2020",
+        "closure10" : "&bull; Thursday, 24 December 2020",
+        "closure11" : "&bull; Friday, 25 December 2020",
+        "closure12" : "&bull; Thursday, 31 December 2020",
+        "closure13" : "&bull; Friday, 1 January 2021"
+    }
+},
+{
+    "TempleID" : 3,
+    "Temple" : "Bismarck Temple",
+    "Location" : "Bismarck, North Dakota",
+    "yearBuilt" : "19 September, 1999",
+    "groundBreaking" : "17 October, 1998",
+    "announced" : "29 July 1998",
+    "Services" : {
+        "service1" : "&bull; No Clothing rental available",
+        "service2" : "&bull; No Cafeteria available",
+        "service3" : "&bull; No patron housing available",
+        "service4" : "&bull; No Distribution center nearby"
+    },
+    "Address" : {
+        "Street" : "2930 Cody Dr",
+        "City" : "Bismarck, ND",
+        "Zip" : "58503-0116",
+        "Filler" : "this is invalid"
+    },
+    "Telephone" : "(1) 701-258-9590",
+    "Ordinances" : {
+        "sealing" : "&bull; 6:00 PM - 7:00 PM Walk-ins and Appointments",
+        "sealing2" : "&bull; 7:45 PM - 8:45 PM Walk-ins and Appointments",
+        "baptism" : "&bull; 6:00 PM - 7:00 PM Family Priority Time - Appointments Only",
+        "baptism2" : "&bull; 7:00 PM - 8:30 PM Appointment Only",
+        "initiatory" : "&bull; 6:00 PM - 8:45 PM Walk-ins and Appointments"
+    },
+    "Endowments" : {
+        "endowment1" : "&bull; 6:00 PM Walk-ins and Appointments",
+        "endowment2" : "&bull; 7:45 PM Walk-ins and Appointments - English"
+    },
+    "Closures" : {
+        "closure1" : "&bull; Wednesday, 1 January 2020",
+        "closure2" : "&bull; Monday, 2 March 2020 - Monday, 16 March 2020",
+        "closure3" : "&bull; Saturday, 4 April 2020",
+        "closure4" : "&bull; Monday, 17 August 2020 - Monday, 28 September 2020",
+        "closure5" : "&bull; Saturday, 3 October 2020",
+        "closure6" : "&bull; Thursday, 26 November 2020",
+        "closure7" : "&bull; Thursday, 24 December 2020",
+        "closure8" : "&bull; Friday, 25 December 2020",
+        "closure9" : "&bull; Thursday, 31 December 2020"
+    }
+},
+{
+    "TempleID" : 4,
+    "Temple" : " Oakland Temple",
+    "Location" : "Oakland, California",
+    "yearBuilt" : "17 November, 1964",
+    "yearbuilt2" : "16 June, 2019",
+    "groundBreaking" : "26 May, 1962",
+    "announced" : "23 January, 1961",
+    "Services" : {
+        "service1" : "&bull; Clothing rental available",
+        "service2" : "&bull; Cafeteria available",
+        "service3" : "&bull; Patron housing available",
+        "service4" : "&bull; Distribution center nearby"
+    },
+    "Address" : {
+        "Street" : "4770 Lincoln Ave",
+        "City" : "Oakland, CA",
+        "Zip" : "94602-2535",
+        "Filler" : "this is invalid"
+    },
+    "Telephone" : "(1) 510-531-3200",
+    "Ordinances" : {
+        "sealing" : "&bull; 6:00 AM - 8:00 PM Walk-ins and Appointments",
+        "baptism1" : "&bull; 5:30 AM - 4:00 PM Church Groups - Appointments Only",
+        "baptism2" : "&bull; 4:00 PM - 8:00 PM Family Priority Time - Walk-ins and Appointments",
+        "initiatory1" : "&bull; 6:00 AM - 8:00 PM Walk-ins and Appointments"
+    },
+    "Endowments" : {
+        "endowment1" : "&bull; 3:00 PM Walk-ins and Appointments",
+        "endowment2" : "&bull; 4:00 PM Walk-ins and Appointments",
+        "endowment3" : "&bull; 5:00 PM Walk-ins and Appointments",
+        "endowment4" : "&bull; 6:00 PM Walk-ins and Appointments",
+        "endowment5" : "&bull; 7:00 PM Walk-ins and Appointments"
+    },
+    "Closures" : {
+        "closure1" : "&bull; Wednesday, 1 January 2020",
+        "closure2" : "&bull; Saturday, 4 April 2020",
+        "closure3" : "&bull; Saturday, 4 July 2020",
+        "closure4" : "&bull; Monday, 14 September 2020 - Monday, 28 September 2020",
+        "closure5" : "&bull; Saturday, 3 october 2020",
+        "closure6" : "&bull; Wednesday, 25 November 2020 (Limited Hours)",
+        "closure7" : "&bull; Thursday, 26 November 2020",
+        "closure8" : "&bull; Thursday, 24 December 2020",
+        "closure9" : "&bull; Friday, 25 December 2020",
+        "closure10" : "&bull; Thursday, 31 December 2020"
+    }
+},
+{
+    "TempleID" : 5,
+    "Temple" : "Portland Temple",
+    "Location" : "Portland, Oregon",
+    "yearBuilt" : "19 August, 1989",
+    "groundBreaking" : "20 September, 1986",
+    "announced" : "7 April, 1984",
+    "Services" : {
+        "service1" : "&bull; Clothing rental available",
+        "service2" : "&bull; Cafeteria available",
+        "service3" : "&bull; No patron housing available",
+        "service4" : "&bull; Distribution center nearby"
+    },
+    "Address" : {
+        "Street" : "13600 Kruse Oaks Blvd",
+        "City" : "Lake Oswego, OR",
+        "Zip" : "97035-8602",
+        "Filler" : "this is invalid"
+    },
+    "Telephone" : "(1) 503-639-7066",
+    "Ordinances" : {
+        "sealing" : "&bull; 7:00 AM - 8:15 PM Walk-ins and Appointments",
+        "baptism1" : "&bull; 10:30 AM - 3:30 PM Family Priority Time - Walk-ins and Appointments",
+        "baptism2" : "&bull; 3:30 PM - 6:30 PM Church Groups - Appointments Only",
+        "baptism3" : "&bull; 6:30PM - 7:00PM Family Priority Time - Walk-ins and Appointments",
+        "initiatory" : "&bull; 7:00 AM - 7:00 PM Walk-ins Only"
+    },
+    "Endowments" : {
+        "endowment1" : "&bull; 3:00 PM Walk-ins Only",
+        "endowment2" : "&bull; 4:00 PM Walk-ins Only",
+        "endowment3" : "&bull; 5:00 PM Walk-ins Only",
+        "endowment4" : "&bull; 6:00 PM Walk-ins Only"
+    },
+    "Closures" : {
+        
+        "closure1" : "&bull; Tuesday, 24 December 2019",
+        "closure2" : "&bull; Wednesday, 25 December 2019",
+        "closure3" : "&bull; Tuesday, 31 December 2019 (Limited Hours)",
+        "closure4" : "&bull; Wednesday, 1 January 2020",
+        "closure5" : "&bull; Monday, 3 February 2020 - Monday, 24 February 2020",
+        "closure6" : "&bull; Saturday, 4 April 2020",
+        "closure7" : "&bull; Saturday, 4 July 2020",
+        "closure8" : "&bull; Monday, 20 July 2020 - Monday, 10 August 2020",
+        "closure9" : "&bull; Saturday, 3 October 2020",
+        "closure10" : "&bull; Wednesday, 25 November 2020 (Limited Hours)",
+        "closure11" : "&bull; Thursday, 26 November 2020",
+        "closure12" : "&bull; Thursday, 24 December 2020",
+        "closure13" : "&bull; Friday, 25 December 2020",
+        "closure14" : "&bull; Thursday, 31 December 2020",
+        "closure15" : "&bull; Friday, 1 January 2021"
+    }
+},
+{
+    "TempleID" : 6,
+    "Temple" : " Spokane Temple",
+    "Location" : "Spokane, Washington",
+    "yearBuilt" : "21 August 1999",
+    "groundBreaking" : "10 October 1998",
+    "announced" : "12 August 1998",
+    "Services" : {
+        "service1" : "&bull; No Clothing rental available",
+        "service2" : "&bull; No Cafeteria available",
+        "service3" : "&bull; No patron housing available",
+        "service4" : "&bull; Distribution center nearby"
+    },
+    "Address" : {
+        "Street" : "13710 E 40th Ave",
+        "City" : "Spokane, WA",
+        "Zip" : "99206",
+        "Filler" : "this is invalid"
+    },
+    "Telephone" : "(1) 509-926-2824",
+    "Ordinances" : {
+        "sealing1" : "&bull; 2:15 PM - 3:15 PM Walk-ins and Appointments",
+        "sealing2" : "&bull; 4:15 PM - 5:15 PM Walk-ins and Appointments",
+        "sealing3" : "&bull; 5:45 PM - 6:45 PM Walk-ins and Appointments",
+        "baptism1" : "&bull; 9:00 AM - 5:00 PM Church Groups - Appointments Only",
+        "baptism2" : "&bull; 5:00 PM - 6:00 PM Family Priority Time - Appointments Only",
+        "baptism3" : "&bull; 6:00 PM - 7:00 PM Family Priority Time - Appointments Only",
+        "initiatory1" : "&bull; 10:30 AM - 3:00 PM Appointments Only",
+        "initiatory2" : "&bull; 3:30 PM - 8:00 PM Appointments Only"
+    },
+    "Endowments" : {
+        "endowment1" : "&bull; 4:00 PM Walk-ins and Appointments",
+        "endowment2" : "&bull; 5:30 PM Walk-ins and Appointments - Spanish",
+        "endowment3" : "&bull; 6:30 PM Walk-ins and Appointments"
+    },
+    "Closures" : {
+        "closure1" : "&bull; Tuesday, 24 December 2019",
+        "closure2" : "&bull; Wednesday, 25 December 2019",
+        "closure3" : "&bull; Tuesday, 31 December 2019 (Limited Hours)",
+        "closure4" : "&bull; Wednesday, 1 January 2020",
+        "closure5" : "&bull; Monday, 30 March 2020 - Monday, 13 April 2020",
+        "closure6" : "&bull; Saturday, 4 July 2020",
+        "closure7" : "&bull; Monday, 28 September 2020 - Monday, 12 October 2020",
+        "closure8" : "&bull; Wednesday, 25 November 2020 (Limited Hours)",
+        "closure9" : "&bull; Thursday, 26 November 2020",
+        "closure10" : "&bull; Thursday, 24 December 2020",
+        "closure11" : "&bull; Friday, 25 December 2020",
+        "closure12" : "&bull; Thursday, 31 December 2020 (Liimited Hours)",
+        "closure13" : "&bull; Friday, 1 January 2021"
+    }
 }
 ]

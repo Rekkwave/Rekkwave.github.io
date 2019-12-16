@@ -12,15 +12,15 @@
         <section>
             <a href="/lesson12/homepage/html/homepage.html"><img id="logo" src="/lesson12/images/logo.jpg" alt="logo"></a>
         </section>
-        <h1>Temples</h1>
+        <h1>Reservations</h1>
         <nav>
         <ul class="navigation">
             <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
             <li><a href="/lesson12/homepage/html/homepage.html">Home</a></li>
             <li><a href="/lesson12/homepage/html/temples.html">Temples</a></li>
             <li class="homepage"><a href="/lesson12/homepage/html/reservations.html">Reservations</a></li>
-            <li><a href="#">Services Page</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a href="/lesson12/homepage/html/services.html">Services Page</a></li>
+            <li><a href="/lesson12/homepage/html/contactus.html">Contact Us</a></li>
         </ul>
         </nav>
     </header>
@@ -39,16 +39,52 @@
                 <input type="tel" id="mobilePhone" name="mobilePhone" required>
             </div>
             <div>
+                <label for="country">Country:</label>
+                <input type="text" id="country" name="country">
+            </div>
+            <div>
+                <label for="state">State (if applies):</label>
+                <input type="text" id="state" name="state">
+            </div>
+            <div>
+                <label for="reservationLocation">Temple: </label>
+                <input list="reservationLocation">
+                <datalist id="reservationLocation">
+                    <option value="Bountiful Temple">
+                    <option value="Bismarck Temple">
+                    <option value="Columbia River Temple">
+                    <option value="Oakland Temple">
+                    <option value="Portland Temple">
+                    <option value="Spokane Temple">
+                </datalist>
+            </div>
+            <div>
                 <label for="date">Reservation Date:</label>
                 <input type="date" id="reservationDate" name="reservationDate"> 
             </div>
             <div>
-                <input type="submit" value="submit">
+                <label for="roomType">Type of Rooms:</label>
+                <input list="roomType">
+                <datalist id="roomType">
+                    <option value="Standard Suite">
+                    <option value="Family Suite">
+                    <option value="King and Queen Suite">
+                </datalist>
+            </div>
+            <div>
+                <label for="numberoFRooms">Amount of Rooms Needed:</label>
+                <input type="number" id="numberoFRooms" name="numberoFRooms">
+            </div>
+            <label for="accomadation">Any other Information you would like for us to know</label> <br>
+            <textarea rows="4" cols="50" name="comment" placeholder="Enter Text Here..." form="usrform"></textarea>
+            <div>
+                <a href="/lesson12/homepage/html/thank.html"><input type="submit" value="submit"></a>
             </div>
         </form>
     </main>
     <footer class="footer">
         <p>&copy; 2019 | Isaac Pulido | BYU-Idaho | <a href="/lesson12/homepage/html/References.html">References</a></p>
     </footer> 
+    <script src="/lesson12/scripts/dropdownmenu.js"></script>
 </body>
 </html>
