@@ -1,5 +1,12 @@
 let currentDate = new Date();
+<<<<<<< HEAD
 let currentDateString;
+=======
+
+let currentDateString;
+
+
+>>>>>>> 356ac8e5caf4d316ff9298991f5cf16b5ac1ff89
 // get day of week
 let weekDayNumber = currentDate.getDay();
 let daysOfWeek =[
@@ -34,6 +41,7 @@ currentDateString += ' ' + month;
 currentDateString += ' ' + currentDate.getFullYear();
 document.getElementById('currentDate').innerHTML = currentDateString;
 console.log(currentDateString);
+<<<<<<< HEAD
 function toggleMenu() {
 	document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
 }
@@ -47,4 +55,33 @@ if (weekDayNumber < 6) {
     document.getElementById("day4").innerHTML = day4;
     document.getElementById("day5").innerHTML = day5;
 
+=======
+
+function toggleMenu() {
+	document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
+}
+
+//create 5 day forecast
+let currentDay = weekDayNumber;
+
+for (let i = 1; i < 6; i++) {
+    // add one day to current day
+    currentDay++;
+
+    // if current day is greater than 6 (Saturday), reset it to 0 (Sunday)
+    if (currentDay > 6) {
+        currentDay = 0;
+    }
+
+    // assing value to placeholder in HTML
+    const element = document.getElementById(`day${i}`);
+
+    element.innerHTML = daysOfWeek[currentDay];
+
+    // show/hide pancake
+    if (weekDayNumber == 5){
+        document.getElementById("pancake").removeAttribute("class","hidden");
+    }
+    
+>>>>>>> 356ac8e5caf4d316ff9298991f5cf16b5ac1ff89
 }
