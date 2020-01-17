@@ -1,0 +1,419 @@
+body {
+    color: #ffcc33;
+    background-color: white;
+  }
+  .homepage{
+    background-color: #ffcc33;
+  }
+  .footer{
+    background-color: #66D7D1;
+    color: white;
+    text-align: center;
+    margin: 0em;
+    width: 100%;
+    font-size: 1.3em;
+    padding: .1em;
+    margin-top: .8em;
+  }
+  h1{
+      text-align: center;
+      font-size: 4em;
+      margin-right: 1em;
+  }
+  h3{
+    background-color: #66D7D1;
+    color: white;
+    padding: 1em;
+    border-radius: 1em;
+  }
+  
+  #logo {
+    width: 20%;
+    margin-left: 11.2em;
+  }
+  .image {
+    margin-left: 16%;
+    width: 20em;
+    height: 20em;
+  }
+ /* Links */
+ nav {
+    max-width: 100%;
+    overflow: hidden;
+    background-color: #66D7D1;
+    margin-bottom: 1em;
+  }
+  
+  .navigation {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  
+  .navigation li:first-child {
+    display: block;
+  }
+  
+  .navigation li {
+    display: none;
+  }
+  
+  .navigation a {
+    display: block;
+    color: white;
+    padding: .75em;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  a:active {
+    background-color: #ffcc33;
+  }
+  
+  .navigation a:hover {
+    color: white;
+    background-color: #ffcc33;
+    font-weight: 200;
+    font-size: 1.2em;
+  }
+  
+  .responsive li {
+    display: block;
+  }
+  
+  li {
+    list-style: none;
+  }
+  .home-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #66D7D1;
+  /* Right here is where to end */
+  }
+
+
+.amenitiesh2heading{
+  font-size: 3em;
+  text-decoration: underline;
+  text-align: left;
+  margin-left: 1em;
+  color: white;
+}
+.amenitiescontainer{
+  border: solid;
+  border-color: black;
+  border-radius: .6em;
+  margin: 1em 1em 1em 1em;
+}
+.Amenitiesheading, .receptionheading, .missionaryheading{
+  text-align: center;
+  font-size: 3em;
+  color: white;
+}
+  .wedding, .reception, .missionaryimage{
+    width: 95%;
+    height: 20em;
+    margin: 1em 1em 1em 1em;
+  }
+  .Amenities, .receptionparagraph{
+    font-size: 2em;
+    margin: 0em 1em 1em 1em;
+    color: white;
+  }
+  .weddingcontainer{
+  border: solid;
+  border-color: black;
+  border-radius: .6em;
+  margin: 1em 1em 1em;
+  }
+
+
+
+  .missionary{
+  border: solid;
+  border-color: black;
+  border-radius: .6em;
+  margin: 1em 1em 1em;
+  }
+
+  .missionaryp{
+  font-size: 2.2em;
+  margin: 0em 1em 1em 1em;
+  color: white;
+
+  }
+  .called{
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+  }
+  .called1{
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+  }
+
+
+
+
+   /*Medwidth*/
+   @media screen and (min-width: 32.5em) {
+
+    /*Links*/
+
+.navigation {
+  display: flex;
+  font-family: 'Dosis', sans-serif;
+}
+
+nav {
+  max-width: 100%;
+  overflow: hidden;
+  background-color: #66D7D1;
+}
+
+.navigation li:first-child {
+  display: none;
+}
+
+.navigation li {
+  display: block;
+  flex: 1 1 100%;
+}
+
+.navigation li a {
+  color: #ffffff;
+}
+#logo{
+    margin-left: 18.5em;
+}
+.home-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.amenitiescontainer{
+  border: solid;
+  border-color: black;
+  border-radius: .6em;
+  margin: 1em 1em 1em 1em;
+  grid-column: 1/3;
+}
+.missionary{
+  border: solid;
+  border-color: black;
+  border-radius: .6em;
+  margin: 1em 0em 1em 1em;
+  grid-column: 1/3;
+  }
+  .weddingcontainer{
+    border: solid;
+    border-color: black;
+    border-radius: .6em;
+    margin: 1em 1em 1em 1em;
+    grid-column: 1/3;
+    }
+.Amenitiesheading{
+  text-align: center;
+  font-size: 3em;
+}
+  .wedding{
+    width: 95%;
+    height: 20em;
+    margin: 1em 1em 1em 1em;
+  }
+  .Amenities{
+    float: right;
+    font-size: 2em;
+    margin: 0em 1em 1em 1em;
+    color: white;
+  }
+  .called{
+    font-size: 2em;
+    color: white;
+    grid-column: 1/5;
+    grid-row: 5;
+    text-align: center;
+    font-weight: bolder;
+  }
+  .called1{
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    grid-column: 1/5;
+    grid-row: 4;
+    font-weight: bolder;
+  }
+  }
+
+/*MedLarge*/
+@media screen and (min-width: 50em) {
+  /*Links*/
+
+.navigation {
+  display: flex;
+  font-family: 'Dosis', sans-serif;
+}
+
+nav {
+  max-width: 100%;
+  font-size: 1.2em;
+  background-color: #66D7D1;
+}
+
+.navigation li:first-child {
+  display: none;
+}
+
+.navigation li {
+  display: block;
+  flex: 1 1 100%;
+}
+
+.navigation li a {
+  color: #ffffff;
+}
+/*end*/
+/*logo*/
+#logo{
+    margin-left: 20em;
+}
+.home-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.amenitiescontainer{
+  border: solid;
+  border-color: black;
+  border-radius: .6em;
+  margin: 1em 1em 1em;
+  grid-column: 1/4;
+}
+.missionary{
+  border: solid;
+  border-color: black;
+  border-radius: .6em;
+  margin: 1em 0em 1em 0em;
+  grid-column: 1/4;
+  }
+  .weddingcontainer{
+    border: solid;
+    border-color: black;
+    border-radius: .6em;
+    margin: 1em 1em 1em;
+    grid-column: 1/4;
+    }
+.Amenitiesheading{
+  text-align: center;
+  font-size: 3em;
+}
+  .wedding{
+    width: 95%;
+    height: 20em;
+    margin: 1em 1em 1em 1em;
+  }
+  .Amenities{
+    float: right;
+    font-size: 2em;
+    margin: 0em 1em 1em 1em;
+    color: white;
+  }
+  .called{
+    font-size: 2em;
+    color: white;
+    grid-column: 1/5;
+    grid-row: 5;
+    text-align: center;
+    font-weight: bolder;
+  }
+  .called1{
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    grid-column: 1/5;
+    grid-row: 4;
+    font-weight: bolder;
+  }
+}
+
+/*Large*/
+@media screen and (min-width: 62em) {
+   /*Links*/
+
+.navigation li a {
+  color: white;
+}
+
+nav {
+  max-width: 100%;
+  font-size: 1.3em;
+}
+#logo{
+    margin-left: 40em;
+    width: 10%;
+}
+.footer{
+    font-size: 1.5em;
+}
+.home-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 120em 30em;
+ }
+
+.amenitiescontainer{
+  border: solid;
+  border-color: black;
+  border-radius: .6em;
+  margin: 1em 1em 1em;
+  grid-column: 1/2;
+  grid-row: 1/3;
+}
+.Amenitiesheading{
+  text-align: center;
+  font-size: 3em;
+}
+  .wedding{
+    width: 95%;
+    height: 20em;
+    margin: 1em 1em 1em 1em;
+  }
+  .reception{
+    margin-top: -2.4em;
+  }
+  .weddingcontainer{
+    border: solid;
+    border-color: black;
+    border-radius: .6em;
+    margin: 1em 1em 1em;
+    grid-column: 2/2;
+    }
+  .Amenities{
+    float: right;
+    font-size: 2em;
+    margin: 0em 1em 1em 1em;
+    color: white;
+  }
+    .called{
+      font-size: 2em;
+      color: white;
+      grid-column: 3/2;
+      grid-row: auto;
+    }
+    .called1{
+      font-size: 2em;
+      color: white;
+      grid-column: 3/3;
+      grid-row: 2;
+    }
+    .missionary{
+      border: solid;
+      border-color: black;
+      border-radius: .6em;
+      margin: 1em 0em 1em 0em;
+      grid-column: 3/4;
+      }
+    }

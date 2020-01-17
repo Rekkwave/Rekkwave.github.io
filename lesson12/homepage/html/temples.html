@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/temples.css">
+    <title>Temples</title>
+</head>
+
+<body>
+    <header>
+        <section>
+            <a href="/lesson12/homepage/html/homepage.html"><img id="logo" src="/lesson12/images/logo.jpg"
+                    alt="logo"></a>
+        </section>
+        <h1>Temples</h1>
+        <nav>
+            <ul class="navigation">
+                <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                <li><a href="/lesson12/homepage/html/homepage.html">Home</a></li>
+                <li class="homepage"><a href="/lesson12/homepage/html/temples.html">Temples</a></li>
+                <li><a href="/lesson12/homepage/html/reservations.html">Reservations</a></li>
+                <li><a href="/lesson12/homepage/html/services.html">Services Page</a></li>
+                <li><a href="/lesson12/homepage/html/contactus.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+
+
+    <section class="home-grid">
+        <a class="cardlink" href="reservations.html">
+            <article class="card">
+                <h2>Bismarck Temple</h2>
+                <div class="container">
+                    <img class="media media1" src="/lesson12/images/BismarckTempleSmall.jpg" alt="Bismarck Temple">
+                    <div class="middle">
+                        <h3 class="templeName"><span id="NameBI"></span></h3>
+                        <h2><span class="templelocation" id="locationBI"></span></h2>
+                        <p class="closeSched">Current Temp:</p><span id="currentTemp1"></span>
+                        <p class="closeSched">Announced:</p>
+                        <h5 id="AnnouncedBI"></h5>
+                        <p class="closeSched">Ground Breaking:</p>
+                        <h5 id="GroundBI"></h5>
+                        <p class="closeSched">Dedicated:</p>
+                        <h5 id="BuiltBI"></h5>
+                        <p class="closeSched">Address: </p>
+                        <h5 id="StreetBI"></h5>
+                        <h5 id="CityBI"></h5>
+                        <h5 id="zipBI"></h5>
+                        <p class="closeSched">Phone Number:</p>
+                        <h5 id="TelephoneBI"></h5>
+                        <p class="closeSched">Services: </p>
+                        <h6 id="Services1BI"></h6>
+                        <h6 id="Services2BI"></h6>
+                        <h6 id="Services3BI"></h6>
+                        <h6 id="Services4BI"></h6>
+                        <p class="closeSched">Sealing Schedule: </p>
+                        <h6 id="Ordinance1BI"></h6>
+                        <h6 id="Ordinance2BI"></h6>
+                        <p class="closeSched">Baptism Schedule: </p>
+                        <h6 id="Ordinance3BI"></h6>
+                        <h6 id="Ordinance4BI"></h6>
+                        <p class="closeSched">Initiatory Schedule: </p>
+                        <h6 id="Ordinance5BI"></h6>
+
+                        <p class="closeSched">Session Schedule: <br>
+                            <h6 id="Endowment1BI"></h6>
+                            <h6 id="Endowment2BI"></h6>
+
+                            <p class="closeSched">Closure Schedule: <br>
+                                <h6 id="Closures1BI"></h6>
+                                <h6 id="Closures2BI"></h6>
+                                <h6 id="Closures3BI"></h6>
+                                <h6 id="Closures4BI"></h6>
+                                <h6 id="Closures5BI"></h6>
+                                <h6 id="Closures6BI"></h6>
+                                <h6 id="Closures7BI"></h6>
+                                <h6 id="Closures8BI"></h6>
+                                <h6 id="Closures9BI"></h6>
+                            </p>
+                    </div>
+                </div>
+                </div>
+            </article>
+        </a>
+        <a class="cardlink" href="reservations.html">
+            <article class="card card1">
+                <h2>Bountiful Temple</h2>
+                <div class="container">
+                    <img class="media media1" src="/lesson12/images/bountifulsmall.jpg" alt="Bountiful Temple">
+                    <div class="middle">
+                        <h3 class="templeName"><span id="NameB"></span></h3>
+                        <h2><span class="templelocation" id="locationB"></span></h2>
+                        <p class="closeSched">Current Temp:</p><span id="currentTemp2"></span>
+                        <p class="closeSched">Announced:</p>
+                        <h5 id="AnnouncedB"></h5>
+                        <p class="closeSched">Ground Breaking:</p>
+                        <h5 id="GroundB"></h5>
+                        <p class="closeSched">Dedicated:</p>
+                        <h5 id="BuiltB"></h5>
+                        <p class="closeSched">Address: </p>
+                        <h5 id="StreetB"></h5>
+                        <h5 id="CityB"></h5>
+                        <h5 id="zipB"></h5>
+                        <p class="closeSched">Phone Number:</p>
+                        <h5 id="TelephoneB"></h5>
+                        <p class="closeSched">Services: </p>
+                        <h6 id="Services1B"></h6>
+                        <h6 id="Services2B"></h6>
+                        <h6 id="Services3B"></h6>
+                        <h6 id="Services4B"></h6>
+                        <p class="closeSched">Sealing Schedule: </p>
+                        <h6 id="Ordinance1B"></h6>
+                        <p class="closeSched">Baptism Schedule: </p>
+                        <h6 id="Ordinance2B"></h6>
+                        <p class="closeSched">Initiatory Schedule: </p>
+                        <h6 id="Ordinance3B"></h6>
+
+                        <p class="closeSched">Session Schedule: <br>
+                            <h6 id="Endowment1B"></h6>
+                            <h6 id="Endowment2B"></h6>
+                            <h6 id="Endowment3B"></h6>
+                            <h6 id="Endowment4B"></h6>
+                            <h6 id="Endowment5B"></h6>
+                            <h6 id="Endowment6B"></h6>
+                            <h6 id="Endowment7B"></h6>
+                            <h6 id="Endowment8B"></h6>
+                            <h6 id="Endowment9B"></h6>
+
+                            <p class="closeSched">Closure Schedule: <br>
+                                <h6 id="Closures1B"></h6>
+                                <h6 id="Closures2B"></h6>
+                                <h6 id="Closures3B"></h6>
+                                <h6 id="Closures4B"></h6>
+                                <h6 id="Closures5B"></h6>
+                                <h6 id="Closures6B"></h6>
+                                <h6 id="Closures7B"></h6>
+                                <h6 id="Closures8B"></h6>
+                                <h6 id="Closures9B"></h6>
+                                <h6 id="Closures10B"></h6>
+                                <h6 id="Closures11B"></h6>
+                                <h6 id="Closures12B"></h6>
+                                <h6 id="Closures13B"></h6>
+                                <h6 id="Closures14B"></h6>
+                                <h6 id="Closures15B"></h6>
+                                <h6 id="Closures16B"></h6>
+                                <h6 id="Closures17B"></h6>
+                            </p>
+                    </div>
+                </div>
+            </article>
+        </a>
+        <a class="cardlink" href="reservations.html">
+            <article class="card">
+                <h2>Columbia River Temple</h2>
+                <div class="container">
+                    <img class="media media1" src="/lesson12/images/columbiariversmall.jpg" alt="Columbia River Temple">
+                    <div class="middle">
+                        <h3 class="templeName"><span id="NameC"></span></h3>
+                        <h2><span class="templelocation" id="locationC"></span></h2>
+                        <p class="closeSched">Current Temp:</p><span id="currentTemp3"></span>
+                        <p class="closeSched">Announced:</p>
+                        <h5 id="AnnouncedC"></h5>
+                        <p class="closeSched">Ground Breaking:</p>
+                        <h5 id="GroundC"></h5>
+                        <p class="closeSched">Dedicated:</p>
+                        <h5 id="BuiltC"></h5>
+                        <p class="closeSched">Address: </p>
+                        <h5 id="StreetC"></h5>
+                        <h5 id="CityC"></h5>
+                        <h5 id="zipC"></h5>
+                        <p class="closeSched">Phone Number:</p>
+                        <h5 id="TelephoneC"></h5>
+                        <p class="closeSched">Services: </p>
+                        <h6 id="Services1C"></h6>
+                        <h6 id="Services2C"></h6>
+                        <h6 id="Services3C"></h6>
+                        <h6 id="Services4C"></h6>
+                        <p class="closeSched">Sealing Schedule: </p>
+                        <h6 id="Ordinance1C"></h6>
+                        <p class="closeSched">Baptism Schedule: </p>
+                        <h6 id="Ordinance2C"></h6>
+                        <p class="closeSched">Initiatory Schedule: </p>
+                        <h6 id="Ordinance3C"></h6>
+
+                        <p class="closeSched">Session Schedule: <br>
+                            <h6 id="Endowment1C"></h6>
+                            <h6 id="Endowment2C"></h6>
+                            <h6 id="Endowment3C"></h6>
+                            <h6 id="Endowment4C"></h6>
+
+                            <p class="closeSched">Closure Schedule: <br>
+                                <h6 id="Closures1C"></h6>
+                                <h6 id="Closures2C"></h6>
+                                <h6 id="Closures3C"></h6>
+                                <h6 id="Closures4C"></h6>
+                                <h6 id="Closures5C"></h6>
+                                <h6 id="Closures6C"></h6>
+                                <h6 id="Closures7C"></h6>
+                                <h6 id="Closures8C"></h6>
+                                <h6 id="Closures9C"></h6>
+                                <h6 id="Closures10C"></h6>
+                                <h6 id="Closures11C"></h6>
+                                <h6 id="Closures12C"></h6>
+                                <h6 id="Closures13C"></h6>
+                            </p>
+                    </div>
+            </article>
+        </a>
+        <a class="cardlink" href="reservations.html">
+            <article class="card">
+                <h2>Oakland Temple</h2>
+                <div class="container">
+                    <img class="media media1" src="/lesson12/images/oaklandtemplesmall.jpg" alt="Oakland Temple">
+                    <div class="middle">
+                        <h3 class="templeName"><span id="NameO"></span></h3>
+                        <h2><span class="templelocation" id="locationO"></span></h2>
+                        <p class="closeSched">Current Temp:</p><span id="currentTemp4"></span>
+                        <p class="closeSched">Announced:</p>
+                        <h5 id="AnnouncedO"></h5>
+                        <p class="closeSched">Ground Breaking:</p>
+                        <h5 id="GroundO"></h5>
+                        <p class="closeSched">Dedicated:</p>
+                        <h5 id="BuiltO"></h5>
+                        <p class="closeSched">Address: </p>
+                        <h5 id="StreetO"></h5>
+                        <h5 id="CityO"></h5>
+                        <h5 id="zipO"></h5>
+                        <p class="closeSched">Phone Number:</p>
+                        <h5 id="TelephoneO"></h5>
+                        <p class="closeSched">Services: </p>
+                        <h6 id="Services1O"></h6>
+                        <h6 id="Services2O"></h6>
+                        <h6 id="Services3O"></h6>
+                        <h6 id="Services4O"></h6>
+                        <p class="closeSched">Sealing Schedule: </p>
+                        <h6 id="Ordinance1O"></h6>
+                        <p class="closeSched">Baptism Schedule: </p>
+                        <h6 id="Ordinance2O"></h6>
+                        <h6 id="Ordinance3O"></h6>
+                        <p class="closeSched">Initiatory Schedule: </p>
+                        <h6 id="Ordinance4O"></h6>
+
+                        <p class="closeSched">Session Schedule: <br>
+                            <h6 id="Endowment1O"></h6>
+                            <h6 id="Endowment2O"></h6>
+                            <h6 id="Endowment3O"></h6>
+                            <h6 id="Endowment4O"></h6>
+                            <h6 id="Endowment5O"></h6>
+
+                            <p class="closeSched">Closure Schedule: <br>
+                                <h6 id="Closures1O"></h6>
+                                <h6 id="Closures2O"></h6>
+                                <h6 id="Closures3O"></h6>
+                                <h6 id="Closures4O"></h6>
+                                <h6 id="Closures5O"></h6>
+                                <h6 id="Closures6O"></h6>
+                                <h6 id="Closures7O"></h6>
+                                <h6 id="Closures8O"></h6>
+                                <h6 id="Closures9O"></h6>
+                                <h6 id="Closures10O"></h6>
+                    </div>
+                </div>
+            </article>
+        </a>
+        <a class="cardlink" href="reservations.html">
+            <article class="card">
+                <h2>Portland Temple</h2>
+                <div class="container">
+                    <img class="media media1" src="/lesson12/images/PortlandTemplesmall.jpg" alt="Portland Temple">
+                    <div class="middle">
+                        <h3 class="templeName"><span id="NameP"></span></h3>
+                        <h2><span class="templelocation" id="locationP"></span></h2>
+                        <p class="closeSched">Current Temp:</p><span id="currentTemp5"></span>
+                        <p class="closeSched">Announced:</p>
+                        <h5 id="AnnouncedP"></h5>
+                        <p class="closeSched">Ground Breaking:</p>
+                        <h5 id="GroundP"></h5>
+                        <p class="closeSched">Dedicated:</p>
+                        <h5 id="BuiltP"></h5>
+                        <p class="closeSched">Address: </p>
+                        <h5 id="StreetP"></h5>
+                        <h5 id="CityP"></h5>
+                        <h5 id="zipP"></h5>
+                        <p class="closeSched">Phone Number:</p>
+                        <h5 id="TelephoneP"></h5>
+                        <p class="closeSched">Services: </p>
+                        <h6 id="Services1P"></h6>
+                        <h6 id="Services2P"></h6>
+                        <h6 id="Services3P"></h6>
+                        <h6 id="Services4P"></h6>
+                        <p class="closeSched">Sealing Schedule: </p>
+                        <h6 id="Ordinance1P"></h6>
+                        <p class="closeSched">Baptism Schedule: </p>
+                        <h6 id="Ordinance2P"></h6>
+                        <h6 id="Ordinance3P"></h6>
+                        <h6 id="Ordinance4P"></h6>
+                        <p class="closeSched">Initiatory Schedule: </p>
+                        <h6 id="Ordinance5P"></h6>
+
+                        <p class="closeSched">Session Schedule: <br>
+                            <h6 id="Endowment1P"></h6>
+                            <h6 id="Endowment2P"></h6>
+                            <h6 id="Endowment3P"></h6>
+                            <h6 id="Endowment4P"></h6>
+
+                            <p class="closeSched">Closure Schedule: <br>
+                                <h6 id="Closures1P"></h6>
+                                <h6 id="Closures2P"></h6>
+                                <h6 id="Closures3P"></h6>
+                                <h6 id="Closures4P"></h6>
+                                <h6 id="Closures5P"></h6>
+                                <h6 id="Closures6P"></h6>
+                                <h6 id="Closures7P"></h6>
+                                <h6 id="Closures8P"></h6>
+                                <h6 id="Closures9P"></h6>
+                                <h6 id="Closures10P"></h6>
+                                <h6 id="Closures11P"></h6>
+                                <h6 id="Closures12P"></h6>
+                                <h6 id="Closures13P"></h6>
+                                <h6 id="Closures14P"></h6>
+                                <h6 id="Closures15P"></h6>
+                    </div>
+                </div>
+            </article>
+        </a>
+        <a class="cardlink" href="reservations.html">
+            <article class="card">
+                <h2>Spokane Temple</h2>
+                <div class="container">
+                    <img class="media media1" src="/lesson12/images/spokanesmall.jpg" alt="Spokane Temple">
+                    <div class="middle">
+                        <h3 class="templeName"><span id="NameS"></span></h3>
+                        <h2><span class="templelocation" id="locationS"></span></h2>
+                        <p class="closeSched">Current Temp:</p><span id="currentTemp6"></span>
+                        <p class="closeSched">Announced:</p>
+                        <h5 id="AnnouncedS"></h5>
+                        <p class="closeSched">Ground Breaking:</p>
+                        <h5 id="GroundS"></h5>
+                        <p class="closeSched">Dedicated:</p>
+                        <h5 id="BuiltS"></h5>
+                        <p class="closeSched">Address: </p>
+                        <h5 id="StreetS"></h5>
+                        <h5 id="CityS"></h5>
+                        <h5 id="zipS"></h5>
+                        <p class="closeSched">Phone Number:</p>
+                        <h5 id="TelephoneS"></h5>
+                        <p class="closeSched">Services: </p>
+                        <h6 id="Services1S"></h6>
+                        <h6 id="Services2S"></h6>
+                        <h6 id="Services3S"></h6>
+                        <h6 id="Services4S"></h6>
+                        <p class="closeSched">Sealing Schedule: </p>
+                        <h6 id="Ordinance1S"></h6>
+                        <h6 id="Ordinance2S"></h6>
+                        <h6 id="Ordinance3S"></h6>
+                        <p class="closeSched">Baptism Schedule: </p>
+                        <h6 id="Ordinance4S"></h6>
+                        <h6 id="Ordinance5S"></h6>
+                        <h6 id="Ordinance6S"></h6>
+                        <p class="closeSched">Initiatory Schedule: </p>
+                        <h6 id="Ordinance7S"></h6>
+                        <h6 id="Ordinance8S"></h6>
+
+                        <p class="closeSched">Session Schedule: <br>
+                            <h6 id="Endowment1S"></h6>
+                            <h6 id="Endowment2S"></h6>
+                            <h6 id="Endowment3S"></h6>
+
+                            <p class="closeSched">Closure Schedule: <br>
+                                <h6 id="Closures1S"></h6>
+                                <h6 id="Closures2S"></h6>
+                                <h6 id="Closures3S"></h6>
+                                <h6 id="Closures4S"></h6>
+                                <h6 id="Closures5S"></h6>
+                                <h6 id="Closures6S"></h6>
+                                <h6 id="Closures7S"></h6>
+                                <h6 id="Closures8S"></h6>
+                                <h6 id="Closures9S"></h6>
+                                <h6 id="Closures10S"></h6>
+                                <h6 id="Closures11S"></h6>
+                                <h6 id="Closures12S"></h6>
+                                <h6 id="Closures13S"></h6>
+                    </div>
+                </div>
+            </article>
+        </a>
+    </section>
+
+
+
+    <footer class="footer">
+        <p>&copy; 2019 | Isaac Pulido | BYU-Idaho | <a href="/lesson12/homepage/html/References.html">References</a></p>
+    </footer>
+    <script src="/lesson9/scripts/main.js"></script>
+    <script src="/lesson12/scripts/temples.js"></script>
+    <script src="/lesson12/scripts/five-day-forecast.js"></script>
+</body>
+
+</html>

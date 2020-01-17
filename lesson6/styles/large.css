@@ -1,0 +1,126 @@
+@media only screen and (min-width: 992px){
+    [class*="col-"]{
+        width: 100%;
+    }
+.top{
+    text-align: center;
+}
+body{
+    background-color: #222629;
+    font-family: 'Dosis', sans-serif;
+    color: #86C232
+}
+
+li{
+    font-family: 'Dosis', sans-serif;
+    list-style: none;
+    color: #86C232;
+}
+li>a {
+    text-decoration: none;
+    font-family: 'Dosis', sans-serif;
+    border-radius: 2em;
+    color: #86C232;
+}
+ul{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    background-color: #474B4F;
+    border-radius: 2em;
+    border-style: inset;
+    text-decoration: none;
+    padding: .5em;
+    font-family: 'Dosis', sans-serif;
+    color: #628E25;
+
+}
+/* class selectors*/
+.highlight{
+    font-weight: bold;
+}
+/* id selectors */
+a:hover{
+    color: #628E25;
+}
+a:active{
+    background-color: #222629;
+}
+
+
+footer{
+    text-align: center;
+    background-color: #474B4F;
+    color: #61892F;
+    grid-gap: .5em;
+    min-width: 2em;
+    border-style: solid;
+    border-color: black;
+    border-radius: 1em;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+}
+.motto{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: #61892F
+}
+
+.navigation  {
+    display: flex;
+    justify-content: space-around;
+}
+.navigation a{
+    padding: 3em;
+}
+.active{
+    background: radial-gradient(#474B4F, #222629);
+    font-weight: 100;
+}
+.navigation li:first-child {
+    display: none;
+}
+.navigation li {
+    display: block;
+}
+#map{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+#weatherSummary{
+    display: block;
+    left: 50px;
+    bottom: 250px;
+    align-items: end;
+    box-shadow: 5px 5px 30px;
+    background-color: #222629;
+    position: absolute;
+    text-align: center;
+    font-size: 1em;
+    
+}
+.hero{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 125px 125px 125px 125px 125px;
+    width: 96.5%;
+}
+.hero-image{
+    margin-left: .2em;
+
+}
+#pancake{
+    font-size: 1em;
+    justify-content: center;
+    max-width: 100%;
+}
+.hidden{
+    display: none;
+}
+}

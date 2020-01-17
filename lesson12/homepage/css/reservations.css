@@ -1,0 +1,198 @@
+body {
+    color: #ffcc33;
+    background-color: white;
+  }
+  .homepage{
+    background-color: #ffcc33;
+  }
+  .footer{
+    background-color: #66D7D1;
+    color: white;
+    text-align: center;
+    margin: 0em;
+    width: 100%;
+    font-size: 1.3em;
+    padding: .1em;
+    margin-top: .8em;
+  }
+  h3{
+    background-color: #66D7D1;
+    color: white;
+    padding: 1em;
+    border-radius: 1em;
+  }
+  
+  #logo {
+    width: 20%;
+    margin-left: 11.2em;
+  }
+  .image {
+    margin-left: 16%;
+    width: 20em;
+    height: 20em;
+  }
+ /* Links */
+ nav {
+    max-width: 100%;
+    overflow: hidden;
+    background-color: #66D7D1;
+    margin-bottom: 1em;
+  }
+  
+  .navigation {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  
+  .navigation li:first-child {
+    display: block;
+  }
+  
+  .navigation li {
+    display: none;
+  }
+  
+  .navigation a {
+    display: block;
+    color: white;
+    padding: .75em;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  a:active {
+    background-color: #ffcc33;
+  }
+  
+  .navigation a:hover {
+    color: white;
+    background-color: #ffcc33;
+    font-weight: 200;
+    font-size: 1.2em;
+  }
+  
+  .responsive li {
+    display: block;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  /* Right here is where to end */
+  
+  /*Main*/
+  
+  h1 {
+    text-align: center;
+    font-size: 3em;
+  }
+  form{
+    font-size: 2em;
+    font-weight: bold;
+    margin-left: 1em;
+  }
+  input{
+    padding: .6em;
+  }
+  main{
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    padding: 1em;
+    text-align: center;
+    border-radius: .7em;
+  }
+
+
+
+  /*Medwidth*/
+  @media screen and (min-width: 32.5em) {
+
+      /*Links*/
+
+  .navigation {
+    display: flex;
+    font-family: 'Dosis', sans-serif;
+  }
+
+  nav {
+    max-width: 100%;
+    overflow: hidden;
+    background-color: #66D7D1;
+  }
+
+  .navigation li:first-child {
+    display: none;
+  }
+
+  .navigation li {
+    display: block;
+    flex: 1 1 100%;
+  }
+
+  .navigation li a {
+    color: #ffffff;
+  }
+  #logo{
+      margin-left: 18.5em;
+  }
+  }
+
+  /*MedLarge*/
+@media screen and (min-width: 50em) {
+    /*Links*/
+
+  .navigation {
+    display: flex;
+    font-family: 'Dosis', sans-serif;
+  }
+
+  nav {
+    max-width: 100%;
+    font-size: 1.2em;
+    background-color: #66D7D1;
+  }
+
+  .navigation li:first-child {
+    display: none;
+  }
+
+  .navigation li {
+    display: block;
+    flex: 1 1 100%;
+  }
+
+  .navigation li a {
+    color: #ffffff;
+  }
+  /*end*/
+  /*logo*/
+  #logo{
+      margin-left: 20em;
+  }
+}
+
+/*Large*/
+@media screen and (min-width: 62em) {
+     /*Links*/
+
+  .navigation li a {
+    color: white;
+  }
+
+  nav {
+    max-width: 100%;
+    font-size: 1.3em;
+  }
+  #logo{
+      margin-left: 63em;
+      width: 10%;
+  }
+  .footer{
+      font-size: 1.5em;
+  }
+}

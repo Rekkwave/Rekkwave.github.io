@@ -1,0 +1,118 @@
+@media only screen and (min-width: 600px){
+    [class*="col-"]{
+        width: 70%;
+    }
+    .top{
+        text-align: center;
+    }
+    body{
+        background-color: #2B59C3;
+        font-family: 'Dosis', sans-serif;
+        margin: 1em;
+        padding: 1em;
+    
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        text-align: center;
+        padding: 2em;
+    }
+    section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        text-align: center;
+        border-style: double;
+        border-radius: 1em;
+        list-style: none;
+        padding: 1em;
+        font-size: 1.5em;
+    }
+    li{
+        font-family: 'Dosis', sans-serif;
+        float: left;
+        
+        /*
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        */
+        /* margin: 10px; */
+        /* margin: 0 10px 10px 10px; */
+        /* margin: 10px 5px; */
+        list-style: none;
+        font-family: 'Dosis', sans-serif;
+        /* padding-left: 0; */
+    }
+    li>a {
+        text-decoration: none;
+        font-family: 'Dosis', sans-serif;
+        border-radius: 2em;
+    }
+    ul{
+        border: 1px solid black;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-content: space-evenly;
+       background-color: #ECC4A1;
+        border-radius: 2em;
+        border-style: inset;
+        text-decoration: none;
+        padding: .5em;
+        font-family: 'Dosis', sans-serif;
+    
+    }
+    /* class selectors*/
+    .highlight{
+        font-weight: bold;
+    }
+    /* id selectors */
+    a:hover{
+        color: #48ACF0;
+    }
+    a:visited{
+        color: ;
+    }
+    footer{
+        display: grid;
+        text-align: center;
+        border-style: solid;
+        border-color: black;
+        border-radius: 1em;
+        padding: 1em;
+        background-color: #C9A690;
+        color: lightgray;
+        grid-gap: .5em;
+        min-width: 2em;
+    }
+    body{
+        margin: auto;
+        max-width: 60%;
+        padding: 2em;
+    }
+    .motto{
+        text-align: center;
+    }
+    h1{
+        text-align: center;
+    }
+    .navigation {
+        display: flex;
+        justify-content: space-around;
+    }
+    .navigation li:first-child {
+        display: none;
+    }
+    .navigation li {
+        display: block;
+    }
+#map{
+    display: block;
+}
+}

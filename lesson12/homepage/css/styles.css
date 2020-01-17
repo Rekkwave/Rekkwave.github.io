@@ -1,0 +1,723 @@
+/* slideshow css */
+
+.prev:hover,
+.next:hover {
+  text-decoration: none;
+
+}
+.homepage{
+  background-color: #ffcc33;
+}
+.slideshow-container {
+  max-width: 60%;
+  position: relative;
+  margin: auto;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.text {
+  text-align: center;
+  font-size: 2em;
+  bottom: 1.3em;
+}
+
+.dots {
+  text-align: center;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 60%;
+  width: 4%;
+  padding: .3em;
+  margin-top: -.5em;
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  margin: -2em 0.7em;
+  user-select: none;
+  background-color: black;
+}
+h3{
+  text-align: center;
+}
+
+
+.image {
+  margin-left: 16%;
+  width: 20em;
+  height: 20em;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+/* end of slideshow */
+
+/* Copy this for other pages */
+body {
+  color: #ffcc33;
+  background-color: white;
+}
+.footer{
+  background-color: #66D7D1;
+  color: white;
+  text-align: center;
+  margin: 0em;
+  width: 100%;
+  font-size: 1.3em;
+  padding: .1em;
+}
+h3{
+  background-color: #66D7D1;
+  color: white;
+  padding: 1em;
+  border-radius: 1em;
+}
+
+#logo {
+  width: 20%;
+  margin-left: 11.2em;
+}
+
+/* Links */
+nav {
+  max-width: 100%;
+  overflow: hidden;
+  background-color: #66D7D1;
+}
+
+.navigation {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.navigation li:first-child {
+  display: block;
+}
+
+.navigation li {
+  display: none;
+}
+
+.navigation a {
+  display: block;
+  color: white;
+  padding: .75em;
+  text-align: center;
+  text-decoration: none;
+}
+
+a:active {
+  background-color: #ffcc33;
+}
+
+.navigation a:hover {
+  color: white;
+  background-color: #ffcc33;
+  font-weight: 200;
+  font-size: 1.2em;
+}
+
+.responsive li {
+  display: block;
+}
+
+li {
+  list-style: none;
+}
+
+/* Right here is where to end */
+
+/*Main*/
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  font-family: 'News Cycle', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3em;
+}
+.fullTimeButton{
+  font-size: .95em;
+  margin:-1em 0em 0em -2em;
+  text-decoration: none;
+  color: white;
+  background-color: #66D7D1;
+  padding: .3em;
+
+}
+.receptionButton{
+  font-size: 1em;
+  float: right;
+  margin: -1.4em 3em 0em -2em;
+  text-decoration: none;
+  color: white;
+  background-color: #66D7D1;
+  padding: .3em;
+}
+.calltoserve{
+  font-size: 1em;
+  float: right;
+  margin: -1.5em 3em 0.3em 0em;
+  text-decoration: none;
+  color: white;
+  background-color: #ffcc33;
+  padding: .3em;
+}
+
+
+/* Media Cards */
+.home-grid{
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+h2{
+  text-align: center;
+}
+.card{
+  width: 100%;
+  padding: .1em;
+  grid-gap: 1em;
+  background-color: #66D7D1;
+  margin-bottom: 1em;
+  border-radius: 1em;
+  box-shadow: 1px 1px 2px 1px #B4D2BA;
+}
+.card:hover{
+  box-shadow: 0 5px 0 5px #ffcc33 ;
+}
+.media{
+  width: 60%;
+  background-color;
+  overflow: hidden;
+  transition: 0.3;
+  margin-left: 5em;
+  padding-bottom: 1em;
+}
+.cardlink{
+  text-decoration: none;
+}
+.cardlink:visited{
+  color: white;
+}
+.middle{
+  padding: 0em;
+  margin: 0em;
+  text-align: center;
+  font-size: 1.3em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*MedWidth*/
+@media screen and (min-width: 32.5em) {
+
+  body {
+    font-family: 'Dosis', sans-serif;
+  }
+
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 60%;
+    width: 3%;
+    padding: -0.7em;
+    margin-top: -.5em;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    margin: 0.2em .5em 2em 2em;
+    user-select: none;
+    background-color: black;
+  }
+
+  #logo {
+    max-width: 20%;
+    margin: 0 -30em -5em 0;
+  }
+
+  /*Links*/
+
+  .navigation {
+    display: flex;
+    font-family: 'Dosis', sans-serif;
+  }
+
+  nav {
+    max-width: 100%;
+    overflow: hidden;
+    margin-left: 10em;
+    background-color: #66D7D1;
+  }
+
+  .navigation li:first-child {
+    display: none;
+  }
+
+  .navigation li {
+    display: block;
+    flex: 1 1 100%;
+  }
+
+  .navigation li a {
+    color: #ffffff;
+  }
+
+  /*Main*/
+
+  .grid {
+    grid-template-columns: 1fr 1fr;
+
+  }
+
+  article {
+    max-width: 60%;
+  }
+
+  h1 {
+    font-size: 2.5em;
+  }
+
+  h2 {
+    font-size: 1em;
+    padding-bottom: .2em;
+  }
+
+  p {
+    font-size: .8em;
+  }
+
+  .text {
+    margin-top: .2em;
+  }
+
+
+  /* Dont copy this over */
+
+  .image {
+    margin-left: 4em;
+    width: 39.5em;
+    height: 28em;
+  }
+
+  .grid {
+    margin: 3em;
+
+  }
+
+  .fullTimeButton{
+    font-size: 1.25em;
+    margin:-1em 0em 0em -2em;
+    text-decoration: none;
+    color: white;
+    background-color: #66D7D1;
+    padding: .4em;
+  
+  }
+  h3{
+    text-align: center;
+  }
+  .receptionButton{
+    font-size: 1.25em;
+    float: right;
+    margin: -1.4em 2em 0em -2em;
+    text-decoration: none;
+    color: white;
+    background-color: #66D7D1;
+    padding: .5em;
+  }
+  .calltoserve{
+    font-size: 1.5em;
+    float: right;
+    margin: -1.5em 3.5em 0em 0em;
+    text-decoration: none;
+    color: white;
+    background-color: #ffcc33;
+    padding: .4em;
+  }
+  .home-grid{
+    grid-template-columns: 1fr 1fr;
+  }
+  .card{
+    margin: 1em 0em 1em 2em;
+    padding: 2em;
+  }
+  .card1{
+    padding-bottom: 3em;
+  }
+  .media{
+    margin: 1em 1em 1em 1.5em;
+    width: 80%;
+  }
+  .media1{
+    width: 100%;
+    margin: 1em 1em 1em .25em;
+    height: 10em;
+  }
+  .middle{
+    padding: 0em;
+    margin: 0em;
+    text-align: center;
+    font-size: 1.3em;
+  }
+
+  /* end of that */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*MedLarge*/
+@media screen and (min-width: 50em) {
+  body {
+    font-family: 'Dosis', sans-serif;
+  }
+
+  /* don't copy this over */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 60%;
+    width: 3%;
+    padding: .3em;
+    margin-top: -.5em;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    margin: 2em 2.4em -2em 3em;
+    user-select: none;
+    background-color: black;
+  }
+  /* yeet */
+
+  #logo {
+    max-width: 15%;
+    margin: 0 -30em -5em 0;
+  }
+
+  /*Links*/
+
+  .navigation {
+    display: flex;
+    font-family: 'Dosis', sans-serif;
+  }
+
+  nav {
+    max-width: 73%;
+    font-size: 1.2em;
+    margin-left: 10em;
+    background-color: #66D7D1;
+  }
+
+  .navigation li:first-child {
+    display: none;
+  }
+
+  .navigation li {
+    display: block;
+    flex: 1 1 100%;
+  }
+
+  .navigation li a {
+    color: #ffffff;
+  }
+
+  /*Main*/
+
+  .grid {
+    grid-template-columns: 1fr 1fr;
+
+  }
+
+  article {
+    max-width: 60%;
+  }
+
+  h1 {
+    font-size: 3em;
+  }
+
+  h2 {
+    font-size: 1em;
+    padding-bottom: .2em;
+  }
+
+  p {
+    font-size: .8em;
+  }
+
+  .text {
+    margin-top: .2em;
+  }
+  /*dont copy this */
+
+  .image {
+    margin-left: 6em;
+    width: 50em;
+    height: 28em;
+  }
+
+  .grid {
+    margin: 3em;
+
+  }
+
+  .fullTimeButton{
+    font-size: 2em;
+    margin: -1em 0em 0em -1em;
+    text-decoration: none;
+    color: white;
+    background-color: #66D7D1;
+    padding: .4em;
+  
+  }
+  .receptionButton{
+    font-size: 2em;
+
+    float: right;
+    margin: -1.4em 0em 0em 0em;
+    text-decoration: none;
+    color: white;
+    background-color: #66D7D1;
+    padding: .5em;
+  }
+  .calltoserve{
+    font-size: 2.3em;
+    float: right;
+    margin: -1.4em 1em -1em 0em;
+    text-decoration: none;
+    color: white;
+    background-color: #ffcc33;
+    padding: .4em;
+  }
+  /* end of that */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 62em) {
+
+  body {
+    font-family: 'Dosis', sans-serif;
+    margin-left: 4em;
+  }
+  h1{
+    font-size: 3.5em;
+  }
+  #logo {
+    max-width: 12.5%;
+    margin: 0 -30em -5em 0;
+  }
+
+  /*Links*/
+
+  .navigation li a {
+    color: white;
+  }
+
+  nav {
+    max-width: 75%;
+    margin-left: 14em;
+    font-size: 1.3em;
+  }
+
+  .grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: -5em;
+
+  }
+
+  .image {
+    margin-left: 8em;
+    width: 75em;
+    height: 40em;
+  }
+  .fullTimeButton{
+    font-size: 2.4em;
+    margin: 0em 0em 0em 0em;
+    text-decoration: none;
+    color: white;
+    background-color: #66D7D1;
+    padding: .4em;
+  
+  }
+  .calltoserve{
+    font-size: 2.7em;
+    float: right;
+    margin: -1.25em 3.7em 0em 0em;
+    text-decoration: none;
+    color: white;
+    background-color: #ffcc33;
+    padding: .4em;
+  }
+  .receptionButton{
+    font-size: 2.4em;
+    float: right;
+    margin: -1.4em 2em 0em 0em;
+    text-decoration: none;
+    color: white;
+    background-color: #66D7D1;
+    padding: .5em;
+  }
+
+  /* dont copy this over */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 90%;
+    width: 1%;
+    padding: .3em;
+    margin-top: -6.5em;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    margin: 0em 6.7em 0 7em;
+    user-select: none;
+    background-color: black;
+  }
+  h3{
+    margin: 2.5em;
+    font-size: 2em;
+  }
+  .footer{
+    font-size: 2.5em;
+    padding: .1em;
+    margin: 0em 0em 0em -1em;
+  }
+  .home-grid{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  h2{
+    font-size: 2em;
+  }
+  .card1{
+    padding-bottom: 3em;
+  }
+  .media1{
+    width: 100%;
+    margin: 1em 1em 1em .25em;
+    height: 24em;
+  }
+  .middle{
+    padding: 0em;
+    margin: 3em 0em 3em 0em;
+    text-align: center;
+    font-size: 2.3em;
+  }
+  /* eBic stuff here  */
+}

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="/lesson12/homepage/css/styles.css" rel="stylesheet">
+    <title>Temple Homepage</title>
+</head>
+
+<body>
+    <header>
+        <section>
+            <a href="/lesson12/homepage/html/homepage.html"><img id="logo" src="/lesson12/images/logo.jpg" alt="logo"></a>
+        </section>
+        <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776;</a></li>
+            <li class="homepage"><a href="/lesson12/homepage/html/homepage.html">Home</a></li>
+            <li><a href="/lesson12/homepage/html/temples.html">Temples</a></li>
+            <li><a href="/lesson12/homepage/html/reservations.html">Reservations</a></li>
+            <li><a href="/lesson12/homepage/html/services.html">Services Page</a></li>
+            <li><a href="/lesson12/homepage/html/contactus.html">Contact Us</a></li>
+        </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Today's Temples</h1>
+
+
+        <!--Slideshow HTML-->
+        <section class="slideshow">
+            <section class="slideShow fade">
+                <section class="slideShowText">
+                    <img class="image" src="/lesson12/images/bountifulslideshow.jpg" alt="Bountiful Temple">
+                    <h3 class="text">Bountiful Temple</h3>
+                </section>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </section>
+            <section class="slideShow fade">
+                <section class="slideShowText">
+                    <img class="image" src="/lesson12/images/columbiariverslideshow.jpg" alt="Bountiful Temple">
+                    <h3 class="text">Columbia River Temple</h3>
+                </section>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </section>
+            <section class="slideShow fade">
+                <section class="slideShowText">
+                    <img class="image" src="/lesson12/images/spokanetempleslideshow.jpg" alt="Bountiful Temple">
+                    <h3 class="text">Spokane Temple</h3>
+                </section>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </section>
+            <section class="slideShow fade">
+                    <section class="slideShowText">
+                        <img class="image" src="/lesson12/images/PortlandTemplelarge.jpg" alt="Bountiful Temple">
+                        <h3 class="text">Portland Temple</h3>
+                    </section>
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </section>
+                <section class="slideShow fade">
+                        <section class="slideShowText">
+                            <img class="image" src="/lesson12/images/BismarckTemple.jpg" alt="Bountiful Temple">
+                            <h3 class="text">Bismark Temple</h3>
+                        </section>
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    </section>
+                    <section class="slideShow fade">
+                            <section class="slideShowText">
+                                <img class="image" src="/lesson12/images/oaklandtemplelarge.jpg" alt="Bountiful Temple">
+                                <h3 class="text">Oakland Temple</h3>
+                            </section>
+                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                        </section>
+        </section>
+
+        </section>
+        <section class="dots">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+        </section>
+        <!--End of Slideshow HTML-->
+        <li class="Buttons">
+            <ul>
+                <li><a class="fullTimeButton" href="#">Full-Time Missionaries</a></li>
+                <li><a class="receptionButton" href="#">Reception</a></li>
+                <li><a class="calltoserve"     href="#">Reserve a room Now!</a></li>
+            </ul>
+<!--Summary of a temple-->
+<h3>Today's temple highlight is the Portland Temple! width
+    This temple being so close to a lot of very popular
+    areas like Yakima, Seattle, Portland and Boise why
+    wouldn't you want to come here. This temple offers lots
+    of different ordinances to be done for members of the 
+    Church. It was dedicated on the 19th of August in 1989!
+</h3>
+
+<!--Media Cards for Temple-->
+<section class="home-grid">
+    <a class="cardlink" href="temples.html">
+<article class="card card1">
+        <h2>Bountiful Temple</h2>
+        <div class="container">
+        <img class="media media1" src="/lesson12/images/bountifulsmall.jpg" alt="Bountiful Temple">
+        <div class="middle"><p>Located: Bountiful, Utah</p></div>
+    </div>
+</article>
+</a>
+<a class="cardlink" href="temples.html">
+<article class="card">
+        <h2>Columbia River Temple</h2>
+        <div class="container">
+        <img class="media media1" src="/lesson12/images/columbiariversmall.jpg" alt="Columbia River Temple">
+        <div class="middle"><p>Located: Kennewick, Washington</p></div>
+    </div>
+</article>
+</a>
+<a class="cardlink" href="temples.html">
+<article class="card">
+        <h2>Spokane Temple</h2>
+        <div class="container">
+        <img class="media media1" src="/lesson12/images/spokanesmall.jpg" alt="Spokane Temple">
+        <div class="middle"><p>Located: Spokane, Washington</p></div>
+    </div>
+</article>    
+</a>
+<a class="cardlink" href="temples.html">
+<article class="card">
+        <h2>Portland Temple</h2>
+        <div class="container">
+        <img class="media media1" src="/lesson12/images/PortlandTemplesmall.jpg" alt="Portland Temple">
+        <div class="middle"><p>Located: Portland, Oregon</p></div>
+    </div>
+</article>  
+</a>
+<a class="cardlink" href="temples.html">  
+<article class="card">
+        <h2>Bismarck Temple</h2>
+        <div class="container">
+        <img class="media media1" src="/lesson12/images/BismarckTempleSmall.jpg" alt="Bismarck Temple">
+        <div class="middle"><p>Located: Bismarck, North Dakota</p></div>
+    </div>
+</article>    
+</a>
+<a class="cardlink" href="temples.html">
+<article class="card">
+        <h2>Oakland Temple</h2>
+        <div class="container">
+        <img class="media media1" src="/lesson12/images/oaklandtemplesmall.jpg" alt="Oakland Temple">
+        <div class="middle"><p>Located: Oakland, California</p></div>
+    </div>
+</article> 
+</a>
+</section>  
+<footer class="footer">
+    <p>&copy; 2019 | Isaac Pulido | BYU-Idaho | <a href="/lesson12/homepage/html/References.html">References</a></p>
+</footer>   
+
+
+
+
+
+    </main>
+    <script src="/lesson12/scripts/slideshow.js"></script>
+    <script src="/lesson12/scripts/dropdownmenu.js"></script>
+</body>
+
+</html>

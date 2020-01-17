@@ -1,0 +1,422 @@
+body {
+    color: #ffcc33;
+    width: 100%;
+    background-color: white;
+  }
+  .homepage{
+    background-color: #ffcc33;
+  }
+  .footer{
+    background-color: #66D7D1;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    width: 95%;
+    font-size: 1.3em;
+    padding: .1em;
+    margin-top: .8em;
+  }
+  h3{
+    background-color: #66D7D1;
+    color: white;
+    padding: 1em;
+    border-radius: 1em;
+  }
+  
+  #logo {
+    width: 20%;
+    margin-left: 11.2em;
+  }
+  .image {
+    margin-left: 16%;
+    width: 20em;
+    height: 20em;
+  }
+
+  h6{
+    font-size: .6em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 1em -1em .1em -1em;
+  }
+  .closeSched{
+    margin: .8em -1em -.5em -.4em;
+    padding: .1em;
+    text-decoration: underline;
+    text-align: center;
+  }
+  
+  h5{
+    font-size: .8em;
+    margin: 1em -3em 0em -.5em;
+    text-align: center;
+  }
+  .templelocation{
+    font-size: .6em;
+  }
+
+
+
+
+
+
+
+  /* Links */
+nav {
+    max-width: 100%;
+    overflow: hidden;
+    background-color: #66D7D1;
+    margin-bottom: 1em;
+  }
+  
+  .navigation {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  
+  .navigation li:first-child {
+    display: block;
+  }
+  
+  .navigation li {
+    display: none;
+  }
+  
+  .navigation a {
+    display: block;
+    color: white;
+    padding: .75em;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  a:active {
+    background-color: #ffcc33;
+  }
+  
+  .navigation a:hover {
+    color: white;
+    background-color: #ffcc33;
+    font-weight: 200;
+    font-size: 1.2em;
+  }
+  
+  .responsive li {
+    display: block;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  /* Right here is where to end */
+  
+  /*Main*/
+  
+  h1 {
+    text-align: center;
+    font-size: 3em;
+  }
+
+  /* Media Cards */
+  .home-grid{
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  h2{
+    text-align: center;
+  }
+  .card{
+    width: 100%;
+    padding: .1em;
+    grid-gap: 1em;
+    background-color: #66D7D1;
+    margin-bottom: 1em;
+    border-radius: 1em;
+    box-shadow: 1px 1px 2px 1px #B4D2BA;
+  }
+  .card:hover{
+    box-shadow: 0 5px 0 5px #ffcc33 ;
+  }
+  .media{
+    width: 60%;
+    background-color;
+    overflow: hidden;
+    transition: 0.3;
+    margin-left: 5em;
+    padding-bottom: 1em;
+  }
+  .cardlink{
+    text-decoration: none;
+  }
+  .cardlink:visited{
+    color: white;
+  }
+  .middle{
+    padding: 0em;
+    margin: 0em;
+    text-align: center;
+    font-size: 1.3em;
+  }
+  .templeName{
+    font-size: 1.2em;
+    text-align: center;
+    padding: 0;
+    margin: -2.5em 0em 0em 0em;
+  }
+  
+
+
+
+  
+
+  /*MedWidth*/
+  @media screen and (min-width: 32.5em) {
+    .home-grid{
+        grid-template-columns: 1fr 1fr;
+      }
+      .card{
+        margin: 1em 0em 1em 2em;
+        padding: 2em;
+        width: 60%;
+      }
+      .card1{
+        padding-bottom: 5em;
+      }
+      .media{
+        margin: 1em 1em 1em 1.5em;
+        width: 80%;
+      }
+      .media1{
+        width: 100%;
+        margin: 1em 1em 1em .25em;
+        height: 10em;
+      }
+      .middle{
+        padding: 0em;
+        margin: 0em;
+        text-align: center;
+        font-size: 1.3em;
+      }
+       /*Links*/
+
+  .navigation {
+    display: flex;
+    font-family: 'Dosis', sans-serif;
+  }
+
+  nav {
+    max-width: 100%;
+    overflow: hidden;
+    background-color: #66D7D1;
+  }
+
+  .navigation li:first-child {
+    display: none;
+  }
+
+  .navigation li {
+    display: block;
+    flex: 1 1 100%;
+  }
+
+  .navigation li a {
+    color: #ffffff;
+  }
+  #logo{
+      margin-left: 18.5em;
+  }
+  h5{
+    font-size: .8em;
+    margin: 1em -3em 0em -.5em;
+    text-align: left;
+  }
+  h6{
+    font-size: .6em;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 1em -1em .1em -1em;
+  }
+  .closeSched{
+    margin: .8em -1em -.5em -.4em;
+    padding: .1em;
+    text-decoration: underline;
+    text-align: left;
+  }
+  .templelocation{
+    font-size: .6em;
+  }
+
+
+
+  }
+
+
+
+  /*MedLarge*/
+@media screen and (min-width: 50em) {
+    .home-grid{
+        grid-template-columns: 1fr 1fr;
+      }
+      .card{
+        margin: 1em 0em 1em 4em;
+        padding: 2em;
+      }
+      .card1{
+        padding-bottom: 5em;
+      }
+      .media{
+        margin: 1em 1em 1em 1.5em;
+        width: 80%;
+      }
+      .media1{
+        width: 100%;
+        margin: 1em 1em 1em .25em;
+        height: 10em;
+      }
+      .middle{
+        padding: 0em;
+        margin: 0em;
+        text-align: center;
+        font-size: 1.3em;
+      }
+      /*Links*/
+
+  .navigation {
+    display: flex;
+    font-family: 'Dosis', sans-serif;
+  }
+
+  nav {
+    max-width: 100%;
+    font-size: 1.2em;
+    background-color: #66D7D1;
+  }
+
+  .navigation li:first-child {
+    display: none;
+  }
+
+  .navigation li {
+    display: block;
+    flex: 1 1 100%;
+  }
+
+  .navigation li a {
+    color: #ffffff;
+  }
+  /*end*/
+  /*logo*/
+  #logo{
+      margin-left: 20em;
+  }
+  h5{
+    font-size: .8em;
+    margin: 1em -3em 0em -.5em;
+    text-align: left;
+  }
+  h6{
+    font-size: .6em;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 1em -1em .1em -1em;
+  }
+  .closeSched{
+    margin: .8em -1em -.5em -.4em;
+    padding: .1em;
+    text-decoration: underline;
+    text-align: left;
+  }
+  .templelocation{
+    font-size: .6em;
+  }
+}
+
+
+
+
+/*Large*/
+@media screen and (min-width: 62em) {
+.home-grid{
+  grid-template-columns: 1fr 1fr 1fr;
+}
+h2{
+  font-size: 2em;
+  margin-bottom: .5em;
+}
+.card1{
+    margin-bottom: 3em;
+}
+.media1{
+  width: 100%;
+  margin: 1em 1em 1em .25em;
+  height: 25em;
+}
+.card{
+    margin: 0em 0em 1em 4em;
+    padding: 1em;
+}
+.middle{
+  padding: 0em;
+  margin: 1em;
+  text-align: left;
+  font-size: 2.3em;
+}
+  /*Links*/
+
+  .navigation li a {
+    color: white;
+  }
+
+  nav {
+    max-width: 95%;
+    font-size: 1.3em;
+    margin-left: 2em;
+  }
+  #logo{
+      margin-left: 43em;
+      width: 10%;
+  }
+  .footer{
+      font-size: 1.5em;
+  }
+
+
+  h5{
+    font-size: .8em;
+    margin: 0em -3em 0em -.5em;
+    text-align: left;
+  }
+  h6{
+    font-size: .6em;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 1em -1em .1em -1em;
+  }
+  .closeSched{
+    margin: .8em -1em .5em -.4em;
+    padding: .1em;
+    text-decoration: underline;
+    text-align: left;
+  }
+  .templelocation{
+    font-size: .3em;
+    margin-left: -2em;
+    margin-right: -3em;
+  }
+  .templeName{
+    font-size: 1em;
+    margin-top: -12.5em;
+    margin-bottom: 8em;
+    color: white;
+  }
+
+}

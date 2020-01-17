@@ -1,0 +1,136 @@
+@media only screen and (min-width: 60em){
+.top{
+    text-align: center;
+}
+body{
+    background-color: #222629;
+    font-family: 'Dosis', sans-serif;
+    margin: 1em;
+    padding: 1.1em;
+    grid-gap: 1.2em;
+    margin: auto;
+    max-width: 60%;
+    padding: 2em;
+    color: white;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    list-style: none;
+    padding: 1em;
+    font-size: 1.5em;
+}
+li{
+    font-family: 'Dosis', sans-serif;
+    list-style: none;
+    color: white;
+}
+li>a {
+    text-decoration: none;
+    font-family: 'Dosis', sans-serif;
+    border-radius: 2em;
+    color: white;
+}
+ul{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    background-color: #474B4F;
+    border-radius: 2em;
+    border-style: inset;
+    text-decoration: none;
+    padding: .5em;
+    font-family: 'Dosis', sans-serif;
+    color: #628E25;
+
+}
+/* class selectors*/
+.highlight{
+    font-weight: bold;
+}
+/* id selectors */
+a:hover{
+    color: #628E25;
+}
+
+
+footer{
+    text-align: center;
+    background-color: #474B4F;
+    color: #61892F;
+    grid-gap: .5em;
+    min-width: 2em;
+    border-style: solid;
+    border-color: black;
+    border-radius: 1em;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+}
+.motto{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: #61892F
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    padding: 2em;
+}
+.navigation  {
+    display: flex;
+    justify-content: space-around;
+}
+.navigation a{
+    padding: 3em;
+}
+.active{
+    background: radial-gradient(#474B4F, #222629);
+    font-weight: 500;
+}
+.navigation li:first-child {
+    display: none;
+}
+.navigation li {
+    display: block;
+}
+#map{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.hero-text{
+    display: flex;
+    align-items: end;
+    box-shadow: 5px 5px 30px;
+    position: absolute;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column: 3/4;
+    font-size: .8em;
+}
+
+.hidden{
+    display: none;
+}
+
+main .gallery{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+   main .gallery:hover{
+        border-radius: 2em;
+    }
+    .shadow{
+        box-shadow: 5px 5px 1em;
+    }
+}

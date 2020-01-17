@@ -1,0 +1,382 @@
+/*mainStuffIneed*/
+body {
+    font-family: 'Dosis', sans-serif;
+    color: #86c232;
+    background-color: #222629;
+    display: block;
+
+}
+
+li {
+    padding-left: .15em;
+    padding-right: .15em;
+    margin: 0 auto;
+    list-style: none;
+
+}
+
+#logo {
+    max-width: 20%;
+    margin-left: 2em;
+    margin-bottom: -6em;
+}
+
+.fishhaven {
+    background-color: #628E25;
+    margin-left: 5px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.title {
+    text-align: center;
+}
+
+
+nav {
+    max-width: 80%;
+    overflow: hidden;
+    background-color: #474B4F;
+    margin-left: 3em;
+    margin-bottom: 1em;
+}
+
+.navigation {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    color: white;
+    padding: 0.75rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:active {
+    background-color: #222629;
+}
+
+.navigation a:hover {
+    color: white;
+    background-color: #628E25;
+    font-weight: 200;
+    font-size: 1.2em;
+}
+
+.responsive li {
+    display: block;
+}
+
+footer {
+    bottom: 0;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #474B4F;
+    font-size: 1.1em;
+    font-family: 'Dosis', sans-serif;
+    margin: 0;
+    padding: 0 auto;
+}
+
+footer p {
+    text-align: center;
+
+    color: white;
+
+}
+
+iframe {
+    display: none;
+}
+
+/*hero image*/
+.heroimg{
+    height: 17em;
+    margin-left: 2.1em;
+}
+
+#weatherSummary{
+    display: none;
+    position: absolute;
+    top: 30px;
+    background-color: #474B4f;
+    border: 3px solid black;
+    padding: .5rem;
+    box-shadow: 0 0 30px;
+    margin-left: 6em;
+    font-size: 1.5em
+}
+.hero{
+    position: relative;
+}
+/*end of hero image*/
+/*Forecast/Table*/
+
+
+
+/*paragraph*/
+.paragraph{
+    font-size: 1.4em;
+    max-width: 80%;
+    margin-left: 2em;
+    margin-top: -6em;
+}
+.paragraph1{
+    font-size: 2.4em;
+    margin-left: 1em;
+}
+#event{
+    font-size: 1.5em;
+}
+/*MainstuffThatIneedEnds*/
+.tableWeather{
+    visibility: hidden;
+}
+.forecastbegin{
+    visibility: hidden;
+}
+
+
+
+
+/*MediumStuff*/
+@media screen and (min-width: 32.5em) {
+    #weatherSummary{
+        display: block;
+        top: 30px;
+        background-color: #474B4f;
+        border: 3px solid black;
+        padding: .5rem;
+        box-shadow: 0 0 30px;
+        margin-left: 5em;
+        font-size: 1.5em;
+    }
+
+    body {
+        font-family: 'Dosis', sans-serif;
+    }
+
+    .soda {
+        margin-top: 1em;
+    }
+
+    #logo {
+        max-width: 20%;
+        margin-left: 4em;
+    }
+
+    .navigation {
+        display: flex;
+        font-family: 'Dosis', sans-serif;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    .navigation li a {
+        color: #ffffff;
+    }
+
+    nav {
+        margin-left: 5em;
+    }
+
+    footer {
+        bottom: 0;
+        max-width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: #474B4F;
+        font-size: 1.2em;
+        font-family: 'Dosis', sans-serif;
+        margin: 0 auto;
+        padding: 0 auto;
+
+    }
+
+
+
+    .grid {
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    article {
+        max-width: 30em;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1em;
+        padding-bottom: .2em;
+    }
+
+    p {
+        font-size: .8em;
+    }
+
+    /*adjusted stuff*/
+    .heroimg {
+        min-width: 40em;
+        margin-left: 4em;
+    }
+
+    /*tablestuff*/
+    .forecastbegin{
+        text-align: center;
+        margin-right: 8em;
+        visibility: visible;
+    }
+    .tableWeather{
+        visibility: visible;
+        margin-left: 5em;
+    }
+    #day1, #day2, #day3, #day4, #day5{
+        padding: 1em;
+    }
+    #forecasttitle{
+        font-size: 2em;
+        padding: .3em;
+        margin: .3em
+    }
+
+    /*event and paragraph*/
+    .paragraph{
+        font-size: 1.4em;
+        max-width: 80%;
+        margin-left: 4em;
+        margin-top: 1em;
+    }
+    .paragraph1{
+        font-size: 2.4em;
+        margin-left: 4em;
+    }
+    #event{
+        font-size: 1.5em;
+        margin-left: 5em;
+    
+    
+    }
+
+    .grid {
+        margin: 3em;
+
+    }
+
+}
+
+
+
+
+/*LargeStuff*/
+@media screen and (min-width: 60em) {
+    #weatherSummary{
+        display: block;
+        top: 30px;
+        background-color: #474B4f;
+        border: 3px solid black;
+        padding: .5rem;
+        box-shadow: 0 0 30px;
+        margin-left: 9em;
+        font-size: 1.5em;
+    }
+
+    nav {
+        margin-left: 8em;
+    }
+
+    footer {
+        margin-left: 8em;
+    }
+
+    body {
+        font-family: 'Dosis', sans-serif;
+        margin-left: 5em;
+    }
+
+    #logo {
+        max-width: 12.5%;
+    }
+
+    .navigation li a {
+        color: white;
+    }
+
+    .grid {
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-left: -.5em;
+
+    }
+    .heroimg{
+        width: 69em;
+        height: 40em;
+        margin-left: 9em;
+    }
+
+    /* table stuff */
+    .forecastbegin{
+        visibility: visible;
+        text-align: center;
+        margin-right: 6em;
+    }
+    .tableWeather{
+        display: run-in;
+        margin-left: 30em;
+        display: flex;
+    }
+    #day1, #day2, #day3, #day4, #day5{
+        padding: 1em;
+    }
+    #forecasttitle{
+        font-size: 2em;
+        text-align: center;
+    }
+     /*event and paragraph*/
+     .paragraph{
+        font-size: 1.4em;
+        max-width: 80%;
+        margin-left: 6em;
+        margin-top: 1em;
+    }
+    .paragraph1{
+        font-size: 2.4em;
+        margin-left: 5em;
+    }
+    #event{
+        font-size: 1.5em;
+        margin-left: 7em;
+    
+    
+    }
+    .tableWeather{
+        visibility: visible;
+    }
+    .forecastbegin{
+        visibility: visible;
+    }
+
+}
