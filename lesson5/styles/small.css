@@ -1,5 +1,5 @@
 @media only screen and (max-width: 600px) {
-<<<<<<< HEAD
+
 [class*="col-"]{
     width: 50%;
 }
@@ -16,10 +16,6 @@ footer {
 }
 main {
          display: flex;
-=======
-    [class*="col-"] {
-        width: 50%;
-    }
 
     footer {
         text-align: center;
@@ -35,14 +31,12 @@ main {
 
     main {
         display: flex;
->>>>>>> 356ac8e5caf4d316ff9298991f5cf16b5ac1ff89
         flex-direction: column;
         justify-content: end;
         justify-items: end;
         text-align: center;
         padding: 2em;
     }
-<<<<<<< HEAD
 body{
     margin: auto;
     max-width: 60%;
@@ -136,7 +130,6 @@ table, th, td{
 #forecast{
     display: none;
 }
-=======
 
     body {
         background-color: #222629;
@@ -290,5 +283,4 @@ table, th, td{
     .hidden{
         display: none;
     }
->>>>>>> 356ac8e5caf4d316ff9298991f5cf16b5ac1ff89
 }

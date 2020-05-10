@@ -10,7 +10,7 @@ body{
 section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-
+flex-direction: column;
 }
 article{
     border: 1px dotted green;
