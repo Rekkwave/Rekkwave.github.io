@@ -1,0 +1,173 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: cadetblue;
+    font-family: 'Lato', sans-serif;
+    display: grid;
+}
+
+h2 {
+    margin: 0;
+    text-align: center;
+    padding: .5rem;
+    font-family: 'Carter One', sans-serif;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 6fr;
+    grid-template-rows: 100px;
+    align-items: center;
+    justify-content: center;
+    background-color: brown;
+    color: white;
+}
+
+
+.headericon {
+    height: 4em;
+    margin-bottom: -1rem;
+}
+
+header h1 {
+    font-size: 1rem;
+    margin-left: 1.5rem;
+    text-align: center;
+    font-family: 'Carter One', cursive;
+    color: white;
+    display: block;
+    margin-top: -1.55em;
+}
+
+header h3 {
+    font-size: .75rem;
+    margin-left: 1.5rem;
+    text-align: center;
+    font-family: 'Lato', cursive;
+    color: white;
+}
+
+nav {
+    margin: 0 auto;
+}
+
+.navigation {
+    list-style: none;
+    padding: 0;
+}
+
+.navigation ul {
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    padding: 0.75rem;
+    text-align: left;
+    text-decoration: none;
+    color: white;
+}
+
+.navigation a:hover {
+    color: black;
+    background-color: burlywood;
+}
+
+.responsive li {
+    display: block;
+}
+
+main {
+    max-width: 767px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 5em 1fr 8em 23em;
+    font-size: 0.8rem;
+}
+div {
+    padding: 1.5rem;
+    background-color: cornsilk;
+    font-size: medium;
+}
+
+footer {
+    margin-left: .6rem;
+    margin-right: .6rem;
+    background-color: brown;
+    text-align: center;
+    color: white;
+    font-size: 11px;
+    padding: 1px;
+}
+
+footer a {
+    color: yellow;
+}
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.imgsum{
+    position: relative;
+    right: 10px;
+}
+.imgsum-img{
+    max-width: 35em;
+}
+#imgsum-sum{
+    display: block;
+    left: 20px;
+    bottom: 180px;
+    align-items: end;
+    box-shadow: 5px 5px 30px;
+    background-color: #222629;
+    position: absolute;
+    text-align: center;
+    font-size: 1em;
+}
+.summ{
+    padding: .5em;
+}
+
+#forecast{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.article{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.article-img{
+    max-width: 18em;
+    height: 15em;
+}
+p{
+    margin-left: 2em;
+}

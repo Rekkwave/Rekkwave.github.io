@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="preston town weather page">
+    <title>Lesson 4 | Preston Town Weather Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Carter+One%7CLato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/lesson16/css/normalize.css">
+    <link rel="stylesheet" href="/lesson16/css/small.css">
+    <link rel="stylesheet" href="/lesson16/css/medium.css">
+    <link rel="stylesheet" href="/lesson16/css/large.css">
+</head>
+
+<body>
+    <div class="content">
+        <header class="header">
+            <img class="headericon" src="/lesson16/images/gstate.png" alt="sun icon">
+            <h1>Golden State Climate</h1>
+            <h3>"Best weather in the lower 48 states"</h3>
+            <nav>
+                <ul class="navigation">
+                    <li><a onclick="toggleMenu()" href="#">&#9776; Menu</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Preston</a></li>
+                    <li><a href="#">Soda Springs</a></li>
+                    <li><a href="#">Fish Haven</a></li>
+                    <li><a href="#">Strom Center</a></li>
+                    <li><a href="#">Gallery</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="title">
+            <h2>Preston Idaho</h2>
+            <section class="imgsum">
+                <img class="imgsum-img" src="/lesson16/images/mountains_1.jpg">
+                <section id="imgsum-sum">
+                    <div class="summ"><span>Current Temp: 72</span></div>
+                    <div class="summ"><span>Wind Speed: 4 MPH</span></div>
+                    <div class="summ"><span>Wind Chill: 15</span></div>
+                </section>
+            </section>
+            <section id="forecast">
+                <h3>High Tempurature Forecast</h3>
+                <table>
+                    <tr>
+                        <th>Day</th>
+                        <th id="day1"></th>
+                        <th id="day2"></th>
+                        <th id="day3"></th>
+                        <th id="day4"></th>
+                        <th id="day5"></th>
+                    </tr>
+                    <tr>
+                        <td>Forecast</td>
+                        <td id="temp1">60&deg;</td>
+                        <td id="temp2">68&deg;</td>
+                        <td id="temp3">56&deg;</td>
+                        <td id="temp4">52&deg;</td>
+                        <td id="temp5">44&deg;</td>
+                    </tr>
+                </table>
+            </section>
+            <section class="article">
+                <p>Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit.
+                    Nulla consectetur justo eu nunc
+                    ultricies, at bibendum dolor
+                    volutpat. Aliquam ornare lectus
+                    eget libero pretium, in cursus nulla consectetur. Morbi eu condimentum urna.
+                </p>
+                <img class="article-img" src="/lesson16/images/valley_1.jpg">
+            </section>
+        </main>
+        <footer class="footer">
+            <p class="year"> &copy; <span id="year"></span>
+                | Tim Meaders | California | <a href="https://www.byui.edu/online">BYUI Online Learning</a></p>
+            <p>Last Updated: <span id="lastupdate"></span>
+                <script src="/lesson16/scripts/lastmodified4.js"></script>
+            </p>
+        </footer>
+    </div>
+
+</body>
+
+</html>
